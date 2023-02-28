@@ -1,0 +1,24 @@
+{
+  "name": "SpanishLocalisation",
+  "bundle_version": "1.0",
+  "bundle_description": "Spanish IDE localisations",
+  "required": false,
+  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Spanish",
+  "plugins": [
+    {
+      "plugin_name": "SpanishLocalisation",
+      "localised_name": "spanish_localisation",
+      "plugin_version": "1.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+            { "Spanish": "spanish.csv" },
+            {"Spanish": "spanish_dnd.csv" }
+        ]
+      },
+      "description": "Spanish IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ]
+}
