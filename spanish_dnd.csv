@@ -329,18 +329,18 @@ GMStdDrawValue_Story_1,Draw  at ${dnd_position},Dibujar en ${dnd_position},,GML 
 GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},Dibujar en ${dnd_position} en ${applyto},,GML Visual story text
 GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position},Dibujar ${var} en ${dnd_position},,GML Visual story text
 GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto},Dibujar ${var} en ${dnd_position} en ${applyto},,GML Visual story text
-GMStdDrawValue_Story_5,"Draw "${caption}" at ${dnd_position}","Escribir "${caption}" en ${dnd_position}",,GML Visual story text
-GMStdDrawValue_Story_6,"Draw "${caption}" at ${dnd_position} on ${applyto}","Escribir "${caption}" en ${dnd_position} en ${applyto}",,GML Visual story text
-GMStdDrawValue_Story_7,"Draw "${caption}" ${var} at ${dnd_position}","Escribir "${caption}" ${var} en ${dnd_position}",,GML Visual story text
-GMStdDrawValue_Story_8,"Draw "${caption}" ${var} at ${dnd_position} on ${applyto}","Escribir "${caption}" ${var} en ${dnd_position} en ${applyto}",,GML Visual story text
+GMStdDrawValue_Story_5,"Draw ""${caption}"" at ${dnd_position}","Escribir ""${caption}"" en ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_6,"Draw ""${caption}"" at ${dnd_position} on ${applyto}","Escribir ""${caption}"" en ${dnd_position} en ${applyto}",,GML Visual story text
+GMStdDrawValue_Story_7,"Draw ""${caption}"" ${var} at ${dnd_position}","Escribir ""${caption}"" ${var} en ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_8,"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Escribir ""${caption}"" ${var} en ${dnd_position} en ${applyto}",,GML Visual story text
 GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},Dibujar transformado en ${dnd_position},,GML Visual story text
 GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},Dibujar transformado en ${dnd_position} en ${applyto},,GML Visual story text
 GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},Dibujar ${var} transformada en ${dnd_position},,GML Visual story text
 GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},Dibujar ${var} transformada en ${dnd_position} en ${applyto},,GML Visual story text
-GMStdDrawValueTransformed_Story_5,"Draw transformed "${caption}" at ${dnd_position}","Escribir "${caption}" transformado en ${dnd_position}",,GML Visual story text
-GMStdDrawValueTransformed_Story_6,"Draw transformed "${caption}" at ${dnd_position} on ${applyto}","Escribir "${caption}" transformado en ${dnd_position} en ${applyto}",,GML Visual story text
-GMStdDrawValueTransformed_Story_7,"Draw transformed "${caption}" ${var} at ${dnd_position}","Escribir "${caption}" ${var} transformado en ${dnd_position}",,GML Visual story text
-GMStdDrawValueTransformed_Story_8,"Draw transformed "${caption}" ${var} at ${dnd_position} on ${applyto}","Escribir "${caption}" ${var} transformado en ${dnd_position} en ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_5,"Draw transformed ""${caption}"" at ${dnd_position}","Escribir ""${caption}"" transformado en ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_6,"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}","Escribir ""${caption}"" transformado en ${dnd_position} en ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_7,"Draw transformed ""${caption}"" ${var} at ${dnd_position}","Escribir ""${caption}"" ${var} transformado en ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_8,"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Escribir ""${caption}"" ${var} transformado en ${dnd_position} en ${applyto}",,GML Visual story text
 GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},Dibujar sprite ${sprite} frame ${image} en ${dnd_position},,GML Visual story text
 GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},Dibujar sprite ${sprite} frame ${image} en ${dnd_position} en ${applyto},,GML Visual story text
 GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}",Dibujar sprite transformado ${sprite} frame ${frame} con escala ${xscale},,GML Visual story text
@@ -366,9 +366,9 @@ GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${a
 GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},Dibujar barra de salud de ${dnd_position1} a ${dnd_position2} con valor ${value},,GML Visual story text
 GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},Dibujar barra de salud de ${dnd_position1} a ${dnd_position2} con valor ${value} en ${applyto},,GML Visual story text
 GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},Dibujar puntuación en ${dnd_position},,GML Visual story text
-GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption "${caption}"","Escribir puntuación en ${dnd_position} con el título "${caption}"",,GML Visual story text
+GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ""${caption}""","Escribir puntuación en ${dnd_position} con el título ""${caption}""",,GML Visual story text
 GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},Dibujar puntuación de ${applyto} en ${dnd_position} en ${applyto},,GML Visual story text
-GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption "${caption}" on ${applyto}","Escribir puntuación de ${applyto} en ${dnd_position} con el título "${caption}" en ${applyto}",,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}","Escribir puntuación de ${applyto} en ${dnd_position} con el título ""${caption}"" en ${applyto}",,GML Visual story text
 GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},Dibujar barra de salud de ${dnd_position1} a ${dnd_position2},,GML Visual story text
 GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},Dibujar barra de salud de ${applyto} de ${dnd_position1} a ${dnd_position2} en ${applyto},,GML Visual story text
 GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},Dibujar vidas en una fila en ${dnd_position},,GML Visual story text

@@ -6,7 +6,7 @@ _Language,Spanish,Spanish,,Language name - in English
 _LanguageNative,Spanish,Español,,Language name in the native language
 _LanguageCode,es,es,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
-_MANUAL_LOCATION,"http://zeus.yoyogames.com/GMS2-Robohelp-spanish-2.3.1.24.zip","http://zeus.yoyogames.com/GMS2-Robohelp-spanish-2.3.1.24.zip",,Location of language manual
+_MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2-Robohelp-spanish-2.3.1.24.zip,http://zeus.yoyogames.com/GMS2-Robohelp-spanish-2.3.1.24.zip,,Location of language manual
 _MANUAL_ONLINE_URL,https://manual-es.yoyogames.com,https://manual-es.yoyogames.com,,online manual url
 _TUTORIALS_ONLINE_URL,https://www.yoyogames.com/es/tutorials,https://www.yoyogames.com/es/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,Abrir en el explorador,,Windows version of Open In Explorer
@@ -25,10 +25,9 @@ $win_IDEMenuHelpAbout,About,Acerca de,,Windows version of the About main menu en
 $mac_IDEMenuHelpAbout,About GameMaker,Acerca de GameMaker,,Windows version of the About main menu entry
 $win_IDEMenuViews,Windows,Ventanas,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Ventana,,Mac version of the views menu entry
-Account_Menu_Login,Login,Iniciar sesión,,Account menu "Login"
-Account_Menu_Logout,Logout,Cerrar sesión,,Acount menu "Logout"
-Account_Menu_ManageAccount,Manage Account,Gestionar cuenta,,Account menu "Account"
-AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,La transición especificada "{0}" no es válida,,The transition specified in the animation json is not a valid value
+Account_Menu_Login,Login,Iniciar sesión,,"Account menu ""Login"""
+Account_Menu_Logout,Logout,Cerrar sesión,,"Acount menu ""Logout"""
+AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,"La transición especificada ""{0}"" no es válida",,The transition specified in the animation json is not a valid value
 BackgroundLayer_HSpeed,Horizontal Speed,Velocidad horizontal,,Numeric textbox label for horizontal scroll speed
 BackgroundLayer_HTile,Horizontal Tile,Casilla horizontal,,Checkbox label for horizontal tiling
 BackgroundLayer_NoBackground,<no background>,<sin fondo>,,no background selected caption for the background layer button
@@ -68,7 +67,7 @@ Certificate_GenerateSucceeded,Successfully created certificate file: {0},Archivo
 Certificate_GenerateFailed,Failed to create certificate file: {0},Error al crear el archivo de certificados: {0},,certificate create failed
 Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,"El archivo de certificados ""{0}"" ya existe, elija otro nombre de archivo",,certificate file exists
 Certificate_RequiredFieldsMissing,Name and Password fields must be set,Debe establecer los campos Nombre y Contraseña,,create certificate missing fields
-Certificate_FileMissing,Unable to find certificate file '{0}',No se ha podido encontrar el archivo certificado "{0}",,certificate file missing
+Certificate_FileMissing,Unable to find certificate file '{0}',"No se ha podido encontrar el archivo certificado ""{0}""",,certificate file missing
 Certificate_Test_Title,Certificate Check,Comprobar certificado,,certificate test title
 Certificate_PasswordFail,Password is NOT valid for certificate,La contraseña para el certificado NO es válida,,certificate password fail
 Certificate_PasswordOK,Password is valid for certificate,La contraseña para el certificado es válida,,certificate password ok
@@ -103,18 +102,18 @@ Configuration_Select,Select Configuration,Seleccionar configuración,,Window tit
 Configurations,Configurations,Configuraciones,,Configurations
 Configurations_Add,Add New Configuration,Añadir configuración nueva,,Add configuration window title
 Configurations_Delete,Are you sure you want to delete configuration '{0}' and all of its children?,Are you sure you want to delete configuration '{0}' and all of its children?,,Confirm for deleting a configuration
-Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,¿Está seguro? Eliminar la configuración "{0}" también borrará las siguientes configuración: "{1}".,,Warning about deleting a configuration deleting child configs
-Configurations_DeleteError,Cannot delete configuration '{0}',No se puede eliminar la configuración "{0}",,Cannot delete a configuration error message
+Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,"¿Está seguro? Eliminar la configuración ""{0}"" también borrará las siguientes configuración: ""{1}"".",,Warning about deleting a configuration deleting child configs
+Configurations_DeleteError,Cannot delete configuration '{0}',"No se puede eliminar la configuración ""{0}""",,Cannot delete a configuration error message
 Configurations_DuplicateEntryError,Cannot duplicate existing configuration name,No se puede duplicar el nombre de configuración existente,,Configuration name cannot be duplicated error message
 Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Trial,Con el GameMaker Trial no se pueden crear configuraciones,,Cannot create configurations with the Trial version of GameMaker error message
-Configurations_InvalidNameError,The configuration name '{0}' is not valid,El nombre de la configuración especificada "{0}" no es válido,,Configuration name provided is invalid
+Configurations_InvalidNameError,The configuration name '{0}' is not valid,"El nombre de la configuración especificada ""{0}"" no es válido",,Configuration name provided is invalid
 Configurations_Manage,Manage Configurations,Gestionar configuraciones,,Manage Configurations window title
 Configurations_NameEmptyError,New configuration name cannot be empty,El nombre de la nueva configuración no puede estar vacío,,Configuration name cannot be empty error message
 Configurations_NewName,New Configuration Name,Nombre de la nueva configuración,,New configuration label
 Configurations_Parent,Parent Configuration,Configuración matriz,,Choose parent configuration label
 Configurations_Promote,Promote,Promocionar,,Promotion of a config up the config hierarchy
 Configurations_Rename,Rename Configuration,Renombrar configuración,,Rename configuration
-Configurations_RenameError,Cannot rename '{0}' configuration,No se puede renombrar la configuración "{0}",,Configuration name cannot be renamed error message
+Configurations_RenameError,Cannot rename '{0}' configuration,"No se puede renombrar la configuración ""{0}""",,Configuration name cannot be renamed error message
 Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,¿Está seguro? La promoción de una configuración no se puede deshacer,,Confirm the user really wants to promote a config
 ContextMenu_AddMenuEntry,Add Menu Entry,Añadir entrada al menú,,Context menu option to add a menu entry at the end of the context menu
 ContextMenu_AddMenuEntryAfter,Add Menu Entry Below,Añadir entrada al menú por debajo,,Context menu option to add a menu entry below the selected entry
@@ -126,8 +125,8 @@ ContextMenu_AddSubMenuEntryAfter,Add Sub Menu Entry Below,Añadir sub entrada al
 ContextMenu_AddSubMenuEntryBefore,Add Sub Menu Entry Above,Añadir sub entrada al menú por encima,,Context menu option to add a sub menu entry after the selected entry
 ContextMenu_MoveEntryDown,Move Menu Item Down,Mover elemento del menú hacia abajo,,Context menu option to move a menu entry or separator down
 ContextMenu_MoveEntryUp,Move Menu Item Up,Mover elemento del menú hacia arriba,,Context menu option to move a menu entry or separator up
-Dialog_AreYouSure,Are you sure?,¿Está seguro?,,Generic "Are you sure?" dialog message
-Dialog_Confirm,Confirm,Confirmar,,Dialog "confirm" heading
+Dialog_AreYouSure,Are you sure?,¿Está seguro?,,"Generic ""Are you sure?"" dialog message"
+Dialog_Confirm,Confirm,Confirmar,,"Dialog ""confirm"" heading"
 Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,¿Está seguro de que quiere retirar el evento con todas sus acciones?,,Delete event dialog confirmation query
 Dialog_CutEvent_Query,Are you sure you want to cut the selected event?,¿Está seguro de que desea cortar el evento seleccionado?,,Cut event dialog confirmation query
 Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,¿Está seguro de que quiere retirar {0} eventos con todas sus acciones?,,Delete multiple event dialog confirmation query
@@ -140,7 +139,7 @@ Dialog_Success,Success,Éxito,,success dialog title
 Dialog_Invalid,Invalid,Inválido,,Dialog caption text for invalid input
 Dialog_InvalidInput,Invalid input. Please provide the required information.,"Entrada inválida. Por favor, proporcione la información necesaria.",,A dialog message for invalid input in dialogs
 Dialog_SaveChangesToX,Save the changes to {0}?,¿Guardar los cambios a {0}?,,Save changes to X query
-Dialog_Warning,Warning,Aviso,,Dialog "Warning" title
+Dialog_Warning,Warning,Aviso,,"Dialog ""Warning"" title"
 DialogEditor_AddContextMenu,Add Context Menu,Añadir menú contextual,,Context menu option to add a context menu to the selected gadget
 DialogEditor_Cell,Grid Cell,Celda de plantilla,,Layout Hierarchy heading for a grid cell group
 DialogEditor_ChildGadgets,Child Gadgets,Gadgets herederos,,Layout Hierarchy heading for a child gadgets group
@@ -162,9 +161,9 @@ DialogEditor_DeleteGadget,Delete Gadget,Eliminar gadget,,menu entry for deleting
 DialogEditor_DeleteLayout,Delete Layout,Eliminar diseño,,Dialog editor delete layout menu entry
 DialogEditor_DeleteLayout_AreYouSure,Are you sure you want to delete this layout?,¿Está seguro de que desea eliminar este diseño?,,Check the user really wants to delete the layout
 DialogEditor_DuplicateLayoutName,Dialog Editor: Duplicate Layout Name,Editor de diálogo: Duplicar nombre del diseño,,log prompt for user to indicate the layout name is already in use
-DialogEditor_DuplicateStyleName,A duplicate of stylename '{0}' was found in\n'{1}'\nthe style will continue to be saved in\n'{2}',Se ha encontrado un duplicado del nombre de estilo "{0}" en\n"{1}"\nel estilo seguirá guardado en\n"{2}",,warning message that a duplicate of a style name was found but will be ignored
+DialogEditor_DuplicateStyleName,A duplicate of stylename '{0}' was found in\n'{1}'\nthe style will continue to be saved in\n'{2}',"Se ha encontrado un duplicado del nombre de estilo ""{0}"" en\n""{1}""\nel estilo seguirá guardado en\n""{2}""",,warning message that a duplicate of a style name was found but will be ignored
 DialogEditor_Error,Error,Error,,dialog editor error box title
-DialogEditor_FailedToOpenJSON,Dialog Editor: Failed to open .json file: '{0}',Editor de diálogo: Error al abrir el archivo .json: "{0}",,The .json file selected failed to load
+DialogEditor_FailedToOpenJSON,Dialog Editor: Failed to open .json file: '{0}',"Editor de diálogo: Error al abrir el archivo .json: ""{0}""",,The .json file selected failed to load
 DialogEditor_FileBrowse,Browse...,Navegar...,,browse for filepath
 DialogEditor_FileName,File name:,Nombre de archivo:,,layout file name
 DialogEditor_FlattenSubLayout,Flatten SubLayout,Aplanar subdiseño,,Context menu/menu bar entry for flattening a sub layout within a layout hierarchy
@@ -174,7 +173,7 @@ DialogEditor_GUIStyle,Style,Estilo,,Gadget properties heading for the guistyle c
 DialogEditor_Hierarchy,Layout Hierarchy,Jerarquía de diseño,,the title for the layout hierarchy window
 DialogEditor_HighlightedGadgetInfo,"relative position: ({0}px, {1}px) dimension: ({2}px, {3}px)","posición relativa: ({0}px, {1}px) dimensión: ({2}px, {3}px)",,display position and dimension of the currently highlighted gadget
 DialogEditor_HSVTextEntry,HSV Input,Entrada HSV,,layout hierarchy label for the HSV input boxes
-DialogEditor_InvalidJSON,The style '{0}' is not a valid json primitive. Please amend or revert the style. No changes will be saved.,El estilo "{0}" no es un json primitivo válido. Modifique o revierta el estilo. No se han guardado cambios.,,Error message when the user attempts to save a broken json style
+DialogEditor_InvalidJSON,The style '{0}' is not a valid json primitive. Please amend or revert the style. No changes will be saved.,"El estilo ""{0}"" no es un json primitivo válido. Modifique o revierta el estilo. No se han guardado cambios.",,Error message when the user attempts to save a broken json style
 DialogEditor_LabelAndIconCollection,Name And Icon,Nombre e icono,,Gadget properties heading for the LabelAndIcon class properties
 DialogEditor_Layout,Layout,Diseño,,Gadget properties heading for the basic layout properties group
 DialogEditor_LayoutName,Layout name:,Nombre del diseño:,,layout name
@@ -188,7 +187,7 @@ DialogEditor_NoJSONSelected,Dialog Editor: No JSON File Selected,Editor de diál
 DialogEditor_NoLayoutSelected,Dialog Editor: No Layout Selected,Editor de diálogo: No se ha seleccionado un diseño,,log prompt for user to indicate no layout was selected
 DialogEditor_NoXMLSelected,Dialog Editor: No XML File Selected,Editor de diálogo: No se ha seleccionado un archivo XML,,log prompt for user to indicate no xml file was selected
 DialogEditor_OpenLayout,Open Layout,Abrir diseño,,Dialog editor open layout menu entry
-DialogEditor_OverridingStyleFile,The style name '{0}' is currently registered to\n'{2}'\nbut will now be saved to\n'{1}',El nombre de estilo "{0}" está actualmente registrado a\n"{2}"\npero ahora se guardará en\n"{1}",,Message when the user overrides a styles save file
+DialogEditor_OverridingStyleFile,The style name '{0}' is currently registered to\n'{2}'\nbut will now be saved to\n'{1}',"El nombre de estilo ""{0}"" está actualmente registrado a\n""{2}""\npero ahora se guardará en\n""{1}""",,Message when the user overrides a styles save file
 DialogEditor_PasteGadget,Paste Gadget,Pegar gadget,,menu entry for pasting a gadget from clipboard
 DialogEditor_Properties,Gadget Layout Properties,Propiedades del diseño de gadget,,the title for the layout properties window
 DialogEditor_RadioGroup,Radio Button Group,Grupo de botones de radio,,Layout hierarchy display name for radio button group
@@ -220,24 +219,24 @@ DialogEditor_Title,Dialog Editor,Editor de diálogo,,title for the dialog editor
 DialogEditor_Toolbox,Gadget Toolbox,Herramientas de gadget,,title for the gadget toolbox window
 DialogEditor_TreeViewNode,TreeViewNode,TreeViewNode,,Dialog editor TreeViewNode
 DialogEditor_Warning,Warning,Aviso,,warning message box title
-Edit_Menu_FindResource,Find Resource,Encontrar recurso,,Edit menu "FindResource"
+Edit_Menu_FindResource,Find Resource,Encontrar recurso,,"Edit menu ""FindResource"""
 Edit_Menu_Redo,Redo,Rehacer,,Redo menu entry
-Edit_Menu_Search,Search & Replace,Buscar y reemplazar,,Edit menu "Search & Replace"
+Edit_Menu_Search,Search & Replace,Buscar y reemplazar,,"Edit menu ""Search & Replace"""
 Edit_Menu_Undo,Undo,Deshacer,,Undo menu entry
 Error_AnimBlendClone,{0} does not implement ICloneable,{0} no implementa ICloneable,,Any class that is used in the animation system must implement ICloneable
 Error_CursorManagerDuplicateName,Attempting to add a cursor using image {1} with duplicated id {0} please assign a different name,"Intentando añadir un cursor usando la imagen {1} con id duplicada {0}, por favor asigne un nombre distinto",,Multiple cursors have been added with the same reference name
-Error_CursorManagerFailedLoad,Attempted to load cursor {1} but received error '{0}',Se intentó cargar el cursor {1} pero se obtuvo el error "{0}",,File load failed for cursor image
+Error_CursorManagerFailedLoad,Attempted to load cursor {1} but received error '{0}',"Se intentó cargar el cursor {1} pero se obtuvo el error ""{0}""",,File load failed for cursor image
 Error_CursorManagerLoadingInfoMissing,Attempting to load cursor {0} but can't find loading info,Intentando cargar el cursor {0} pero no se ha podido encontrar la información de carga,,The loading callback for a cursor can't find the loading hotspot info
-Error_GadgetToolboxFailedLoad,Attempted to load gadget toolbox info but received error '{0}' - '{1}',Se han intentado cargar la información de las herramientas de gadget pero se obtuvo el error "{0}" - "{1}",,Failed to load the gadget toolbox list
-Error_GadgetToolboxInvalidGadget,Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager,Se ha intentado añadir el gadget "{0}" a las herramientas pero no está registrado con el gestor de diseño,,Invalid gadget specified in gadget toolbox list
+Error_GadgetToolboxFailedLoad,Attempted to load gadget toolbox info but received error '{0}' - '{1}',"Se han intentado cargar la información de las herramientas de gadget pero se obtuvo el error ""{0}"" - ""{1}""",,Failed to load the gadget toolbox list
+Error_GadgetToolboxInvalidGadget,Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager,"Se ha intentado añadir el gadget ""{0}"" a las herramientas pero no está registrado con el gestor de diseño",,Invalid gadget specified in gadget toolbox list
 Error_GUILayout_AnchorRequiresParentPos,"A parent reliant anchor (bottom or right) has been set with no parent gadget, try setting the dimension instead","Se ha establecido una dependencia de anclaje matriz (parte inferior o derecha) sin gadget matriz, en su lugar intente establecer la dimensión",,Attempted to use an bottom or right anchor when there is no parent gadget to base the position upon
 Error_GUILayout_DimensionAndBothAnchors,"A dimension input has been set along with both the associated anchors, the dimension input will be ignored","Se ha establecido una entrada de dimensión junto con ambos anclajes asociados, la entrada de dimensión se ignorará",,"Both the dimension and the associated anchors have been set (for instance width, top and bottom) the dimension will be calculated from the anchors not the dimension input"
 Error_GUILayout_FailedCalculatePosition,"Cannot calculate actual position of gadget, too few anchors and/or dimensions are set","No se puede calcular la posición actual del gadget, no hay anclas suficientes y/o dimensiones establecidas",,Gadget requires at least one anchor or the dimension to be set for each direction
 Error_GUILayout_PercentageRequiresParentDimension,"An anchor or dimension has been set to percentage with no parent gadget, try using pixel instead","Se ha establecido un anclaje o dimensión a un porcentaje sin gadget matriz, en su lugar intente usar píxel",,Attempted to use percentage style values when there is no parent gadget to base it upon
 Error_ProjectLoadFailure,Project load failed. Unable to load {0},Error al cargar el proyecto. No se ha podido cargar {0},,Project load failure
 Error_StyleNotFound,"Can not set requested style, not found","No se puede establecer el estilo solicitado, no encontrado",,Trying to set a style when it hasn't been loaded/found
-Error_WeakDelegateArgument,Method '{1}' on object '{0}' failed because {2},Error al usar el método "{1}" en el objeto "{0}" debido a {2},,Attempting to invoke a method from within a weak delegate with incorrect arguments
-Error_WeakDelegateParameterCount,Method '{1}' on object '{0}' failed due to mismatching parameter count,Error al usar el método "{1}" en el objeto "{0}" debido a un recuento de parámetros desparejo.,,Attempting to invoke a method from within a weak delegate with incorrect parameter count
+Error_WeakDelegateArgument,Method '{1}' on object '{0}' failed because {2},"Error al usar el método ""{1}"" en el objeto ""{0}"" debido a {2}",,Attempting to invoke a method from within a weak delegate with incorrect arguments
+Error_WeakDelegateParameterCount,Method '{1}' on object '{0}' failed due to mismatching parameter count,"Error al usar el método ""{1}"" en el objeto ""{0}"" debido a un recuento de parámetros desparejo.",,Attempting to invoke a method from within a weak delegate with incorrect parameter count
 Event_Alarm,Alarm,Alarma,,Alarm event name
 Event_AlarmN,Alarm {0},Alarma {0},,Key Event Alarm N
 Event_Async_AudioPlayback,Async - Audio Playback,Asínc - Reproducción de audio,,Asynchronous event subtype
@@ -270,18 +269,18 @@ Event_Draw_PreDraw,Pre-Draw,Pre-dibujo,,Draw event subtype
 Event_Draw_Resize,Window Resize,Cambiar tamaño de ventana,,Draw event subtype
 Event_Key_Alt,Alt,Alt,,Key event subtype
 Event_Key_AnyKey,Any,Cualquiera,,Key event subtype
-Event_Key_Backspace,Backspace,Retroceso,,Key event "others" subtype
+Event_Key_Backspace,Backspace,Retroceso,,"Key event ""others"" subtype"
 Event_Key_Ctrl,Control,Control,,Key event subtype
-Event_Key_Delete,Delete,Eliminar,,Key event "others" subtype
+Event_Key_Delete,Delete,Eliminar,,"Key event ""others"" subtype"
 Event_Key_DigitN,{0},{0},,event key digit N
 Event_Key_Digits,Digits,Dígitos,,Key event subtype
 Event_Key_Down,Down,Abajo,,Key event subtype
-Event_Key_End,End,Fin,,Key event "others" subtype
+Event_Key_End,End,Fin,,"Key event ""others"" subtype"
 Event_Key_Enter,Enter,Intro,,Key event subtype
-Event_Key_Escape,Escape,Escape,,Key event "others" subtype
+Event_Key_Escape,Escape,Escape,,"Key event ""others"" subtype"
 Event_Key_FunctionKeys,Function Keys,Teclas de función,,Key event subtype
-Event_Key_Home,Home,Inicio,,Key event "others" subtype
-Event_Key_Insert,Insert,Insertar,,Key event "others" subtype
+Event_Key_Home,Home,Inicio,,"Key event ""others"" subtype"
+Event_Key_Insert,Insert,Insertar,,"Key event ""others"" subtype"
 Event_Key_Keypad,Keypad,Pad numérico,,Key event subtype
 Event_Key_KeypadN,Keypad {0},Pad numérico {0},,Keypad event N
 Event_Keyboard_Modifiers,Modifiers,Modificadores,,Modifiers keyboard group title
@@ -291,8 +290,8 @@ Event_Key_Left,Left,Izquierdo,,Key event subtype
 Event_Key_Letters,Letters,Letras,,Key event subtype
 Event_Key_NoKey,No Key,Sin tecla,,Key event subtype
 Event_Key_Others,Others,Otras,,Key event subtype
-Event_Key_PageDown,Page Down,Av. Pág.,,Key event "others" subtype
-Event_Key_PageUp,Page Up,Re. Pág.,,Key event "others" subtype
+Event_Key_PageDown,Page Down,Av. Pág.,,"Key event ""others"" subtype"
+Event_Key_PageUp,Page Up,Re. Pág.,,"Key event ""others"" subtype"
 Event_Key_Right,Right,Derecho,,Key event subtype
 Event_Key_Shift,Shift,Cambiar,,Key event subtype
 Event_Key_Space,Space,Barra espaciadora,,Key event subtype
@@ -311,15 +310,15 @@ Event_MouseClick,Mouse Click,Clic del ratón,,Mouse Click event name
 Event_MouseDown,Mouse Down,Ratón abajo,,Mouse Down event name
 Event_MouseUp,Mouse Up,Ratón arriba,,Mouse Up event name
 Event_Mouse_GlobalMouse,Global,Global,,Mouse event subtype
-Event_Mouse_GlobalMouse_LeftButton,Global Left Down,Izquierdo global abajo,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_LeftPressed,Global Left Pressed,Izquierdo global pulsado,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_LeftReleased,Global Left Released,Izquierdo global soltado,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_MiddleButton,Global Middle Down,Central global abajo,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_MiddlePressed,Global Middle Pressed,Central global pulsado,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_MiddleReleased,Global Middle Released,Central global soltado,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_RightButton,Global Right Down,Derecho global abajo,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_RightPressed,Global Right Pressed,Derecho global pulsado,,Mouseevent "global" subtype
-Event_Mouse_GlobalMouse_RightReleased,Global Right Released,Derecho global soltado,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_LeftButton,Global Left Down,Izquierdo global abajo,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_LeftPressed,Global Left Pressed,Izquierdo global pulsado,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_LeftReleased,Global Left Released,Izquierdo global soltado,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_MiddleButton,Global Middle Down,Central global abajo,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_MiddlePressed,Global Middle Pressed,Central global pulsado,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_MiddleReleased,Global Middle Released,Central global soltado,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_RightButton,Global Right Down,Derecho global abajo,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_RightPressed,Global Right Pressed,Derecho global pulsado,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_RightReleased,Global Right Released,Derecho global soltado,,"Mouseevent ""global"" subtype"
 Event_Mouse_LeftButton,Left Down,Izquierdo abajo,,Mouse event subtype
 Event_Mouse_LeftPressed,Left Pressed,Izquierdo pulsado,,Mouse event subtype
 Event_Mouse_LeftReleased,Left Released,Izquierdo soltado,,Mouse event subtype
@@ -353,8 +352,8 @@ Event_Other_RoomStart,Room Start,Inicio de la habitación,,Other event subtype
 Event_Other_UserDefined,User Events,Eventos de usuario,,Other event subtype
 Event_Other_UserN,User Event {0},Evento de usuario {0},,event other user N
 Event_Other_Views,Views,Vistas,,Other event subtype
-Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,Vista de intersección de límite {0},,Other-Views "Boundary view" event numberN
-Event_Other_Views_OutsideViewN,Outside View {0},Vista exterior {0},,Other-Views "Outside view" event numberN
+Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,Vista de intersección de límite {0},,"Other-Views ""Boundary view"" event numberN"
+Event_Other_Views_OutsideViewN,Outside View {0},Vista exterior {0},,"Other-Views ""Outside view"" event numberN"
 Event_Other_Views_Boundary,Intersect Boundary,Límite de intersección,,Intersect boundary view group title
 Event_Other_Views_Outside,Outside View,Vista exterior,,Outside view group title
 Event_Step,Step,Paso,,Step event name
@@ -381,13 +380,13 @@ Extension_Import_GMEZ_InvalidData,Unable to read the extension file,No se ha pod
 Extension_Import_GMEZ_Missing,Unable to find an extension within the GMEZ file,No se ha podido encontrar una extensión dentro del archivo GMEZ,,extension import missing gmez
 Extension_Import_ImportingResources,Importing resources...,Importando recursos...,,extension import - importing resource progress label
 Extension_Import_ProjectLabel,Resources to add:,Recursos a añadir:,,extension resource import add to project label
-Extension_Import_ResourceNameAlreadyExists,Already a resource with name '{0}' - please rename it before importing the extension,Ya existe un recurso con el nombre "{0}" - renómbrelo antes de importar la extensión,,extension import - imported extension has the same name as an existing resource
+Extension_Import_ResourceNameAlreadyExists,Already a resource with name '{0}' - please rename it before importing the extension,"Ya existe un recurso con el nombre ""{0}"" - renómbrelo antes de importar la extensión",,extension import - imported extension has the same name as an existing resource
 Extension_Import_ResourceNameConflict,Resource names conflict,Conflicto de nombres de recurso,,extension import - resource names conflict
 Extension_Import_Resources_Description,Select resources from your extension and add them to your project,Seleccione recursos de su extensión y añádalos a su proyecto,,extension import description label
-Extension_Import_Extract_Error,Failed to extract the extension archive: '{0}',Error al extraer el archivo de extensión: "{0}",,extension import - archive unzip failed error message
+Extension_Import_Extract_Error,Failed to extract the extension archive: '{0}',"Error al extraer el archivo de extensión: ""{0}""",,extension import - archive unzip failed error message
 Extension_Import_Resources_Title,Import resources: {0},Importar recursos: {0},,extension import resource title
 Extension_Import_Legacy_Resources_Title,Import legacy resources: {0},Importar recursos heredados: {0},,legacy extension(1.x) import resource title
-Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,¿Cerrar la sesión del usuario "{0}"?\nEsto guardará cualquier cambio y reiniciará el IDE.,,Query if the user really wants to logout
+Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,"¿Cerrar la sesión del usuario ""{0}""?\nEsto guardará cualquier cambio y reiniciará el IDE.",,Query if the user really wants to logout
 Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,¿Está seguro de que quiere restaurar los ajustes predeterminados?\nEsto reiniciará la aplicación para que los cambios tengan efecto.,,Restore default settings restart prompt
 File_Menu_NewIDE,New IDE,Nuevo IDE,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,Cerrar sesión,,The Logout program menu item
@@ -547,8 +546,8 @@ Grid_MoveToSpanRows,Span All Rows,Abarcar todas las filas,,Context menu option t
 Grid_RemoveColumn,Remove Column(s),Eliminar columna(s),,Context menu option to remove a column or columns
 Grid_RemoveRow,Remove Row(s),Eliminar fila(s),,Context menu option to remove a row or rows
 History_Title,History,Historial,,History window title
-IDEMenu_Account,Account,Cuenta,,IDE menu "Account"
-IDEMenu_Build,Build,Construir,,File menu "Build"
+IDEMenu_Account,Account,Cuenta,,"IDE menu ""Account"""
+IDEMenu_Build,Build,Construir,,"File menu ""Build"""
 IDEMenu_Edit,Edit,Editar,,The Edit menu item name
 IDEMenu_File,File,Archivo,,The File menu item name
 IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
@@ -955,7 +954,7 @@ Marketplace_Package_CreateError,Error creating package,Error al crear el paquete
 Marketplace_Package_ImportError,Error importing package,Error al importar el paquete,,package import error title
 Marketplace_Package_Verifying,Verifying package...,Verificando paquete...,,marketplace pacakge verifying progress title
 Marketplace_Package_VerifyError,Failed to verify the package,Error al verificar el paquete,,marketplace package verification error
-Marketplace_Package_GenericError,Failed with error:\n'{0}',Error con el código:\n"{0}",,generic marketplace package error
+Marketplace_Package_GenericError,Failed with error:\n'{0}',"Error con el código:\n""{0}""",,generic marketplace package error
 Marketplace_Package_SigningError,Package signing error,Error al firmar paquete,,marketplace package signing error
 Marketplace_Package_ExtractFailed,Error extracting package archive: '{0}',"Error al extraer el archivo del paquete: ""{0}""",,marketplace package extract fail
 Marketplace_Package_ImportCompleted,Import Completed!,¡Importación completada!,,marketplace package import completed
@@ -972,7 +971,7 @@ Marketplace_NoPublisherMessage,You do not have a Publisher attached to this acco
 Marketplace_ProjectRequiredDialogTitle,Project Required,Se necesita proyecto,,marketplace import project required dialog title
 Marketplace_ProjectRequiredDialogMessage,An open project is required to import assets.\nDo you want to create a new project or open an existing project now?,Para importar activos necesita un proyecto abierto.\n¿Quiere crear un proyecto nuevo o abrir uno ya existente?,,marketplace import project required dialog message
 MPackage_PackageUploadTitle,Package Upload,Subir paquete,,package upload dialog title
-MPackage_PackageCreated,Created package '{0}' version {1},Creado el paquete "{0}" versión {1},,package create success message
+MPackage_PackageCreated,Created package '{0}' version {1},"Creado el paquete ""{0}"" versión {1}",,package create success message
 MPackage_PackageUploading,Uploading to Marketplace...,Subiendo al mercado...,,package uploading message
 MPackage_PackageIDInvalid,Package ID is invalid,ID de paquete inválida,,mplace create package package id error
 MPackage_AssetDisplayName,Display name,Nombre en pantalla,,marketplace asset display name label
@@ -986,17 +985,17 @@ MPackage_PackageIdRule1,- Must be in the format com.companyname.assetname,- Must
 MPackage_PackageIdRule2,- Cannot contain spaces,- Cannot contain spaces,,asset create restriction label
 MPackage_PackageIdRule3,- Company and asset names may contain letters and numbers,- Company and asset names may contain letters and numbers,,asset create restriction label
 MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,IMPORTANTE: Una vez se haya creado su activo ya no podrá cambiar la ID del paquete.,,create asset warning label
-MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,Subido paquete "{0}" versión {1}.\n¿Ir a la página de listado de activos?,,mplace package uploaded message
+MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,"Subido paquete ""{0}"" versión {1}.\n¿Ir a la página de listado de activos?",,mplace package uploaded message
 MPackage_UploadFailed,Package upload failed: {0},Error al subir el paquete: {0},,mplace package upload failed message
 MPackage_UploadCancelled,Package upload cancelled,Subida del paquete cancelada,,mplace package upload cancelled message
 MPackage_PackageType,Package Type:,Tipo de paquete:,,mplace package type label
-MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,IMPORTANTE: La categoría del activo se fijará en "Demo" tras la carga,,mplace category setting message
-MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,IMPORTANTE: La categoría del activo se fijará en "Tutorial" tras la carga,,mplace category setting message
-MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,IMPORTANTE: Una vez se haya creado su activo ya no podrá cambiar la ID del paquete. La categoría del activo se fijará en "Demo" tras la carga,,mplace category setting message
-MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,IMPORTANTE: Una vez se haya creado su activo ya no podrá cambiar la ID del paquete. La categoría del activo se fijará en "Tutorial" tras la carga,,mplace category setting message
+MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,"IMPORTANTE: La categoría del activo se fijará en ""Demo"" tras la carga",,mplace category setting message
+MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,"IMPORTANTE: La categoría del activo se fijará en ""Tutorial"" tras la carga",,mplace category setting message
+MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,"IMPORTANTE: Una vez se haya creado su activo ya no podrá cambiar la ID del paquete. La categoría del activo se fijará en ""Demo"" tras la carga",,mplace category setting message
+MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,"IMPORTANTE: Una vez se haya creado su activo ya no podrá cambiar la ID del paquete. La categoría del activo se fijará en ""Tutorial"" tras la carga",,mplace category setting message
 MenuBar_AddMenuBarEntry,Add Menu Bar Entry,Añadir entrad a la barra de menú,,Add a new menu bar entry at the end of the bar
-MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',Añadir entrad a la barra de menú después de "{0}",,Add a new menu bar entry after the selected entry
-MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',Añadir entrad a la barra de menú antes de "{0}",,Add a new menu bar entry before the selected entry
+MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',"Añadir entrad a la barra de menú después de ""{0}""",,Add a new menu bar entry after the selected entry
+MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',"Añadir entrad a la barra de menú antes de ""{0}""",,Add a new menu bar entry before the selected entry
 MenuBar_Edit,Edit,Editar,,Menu bar heading: Edit
 MenuBar_File,File,Archivo,,Menu bar heading: File
 MenuBar_Image,Image,Imagen,,menu bar heading: Image
@@ -1008,22 +1007,22 @@ Navigation_Back,Back,Atrás,,Back
 Navigation_Forward,Forward,Adelante,,Forward
 Navigation_Reload,Reload,Recargar,,Reload webpage
 News_ReleaseNotes,Release Notes,Notas de la versión,,Release notes window caption
-Object_Mask,Collision Mask:,Máscara de colisión:,,object "mask" property
-Object_Parent,Parent,Matriz,,object "parent" property
+Object_Mask,Collision Mask:,Máscara de colisión:,,"object ""mask"" property"
+Object_Parent,Parent,Matriz,,"object ""parent"" property"
 ObjectEditor_ParentChildren,Parent & Children,Matriz y descendiente,,Object editor parent and children caption
-Object_Persistent,Persistent,Persistente,,Object Model "persistent" property
-Object_PhysicsAngularDamping,Angular Damping,Atenuación angular,,object "physicsAngularDamping" property label
-Object_PhysicsDensity,Density,Densidad,,object "physicsDensity" property label
-Object_PhysicsFriction,Friction,Fricción,,object "physicsFriction" property label
-Object_PhysicsGroup,Collision Group,Grupo de colisión,,object "physicsGroup" property label
-Object_PhysicsKinematic,Kinematic,Cinemático,,object "physicsKinematic" property label
-Object_PhysicsLinearDamping,Linear Damping,Atenuación linear,,object "physicsLinearDamping" property label
-Object_PhysicsRestitution,Restitution,Restitución,,object "physicsRestitution" property label
-Object_PhysicsSensor,Sensor,Sensor,,object "physicsSensor" property label
-Object_PhysicsStartAwake,Start Awake,Iniciar despierto,,object "physicsStartAwake" property label
-Object_Solid,Solid,Sólido,,Object Model "solid" property
-Object_UsesPhysics,Uses Physics,Usa física,,Object Model "uses physics" property
-Object_Visible,Visible,Visible,,Object Model "visible" property
+Object_Persistent,Persistent,Persistente,,"Object Model ""persistent"" property"
+Object_PhysicsAngularDamping,Angular Damping,Atenuación angular,,"object ""physicsAngularDamping"" property label"
+Object_PhysicsDensity,Density,Densidad,,"object ""physicsDensity"" property label"
+Object_PhysicsFriction,Friction,Fricción,,"object ""physicsFriction"" property label"
+Object_PhysicsGroup,Collision Group,Grupo de colisión,,"object ""physicsGroup"" property label"
+Object_PhysicsKinematic,Kinematic,Cinemático,,"object ""physicsKinematic"" property label"
+Object_PhysicsLinearDamping,Linear Damping,Atenuación linear,,"object ""physicsLinearDamping"" property label"
+Object_PhysicsRestitution,Restitution,Restitución,,"object ""physicsRestitution"" property label"
+Object_PhysicsSensor,Sensor,Sensor,,"object ""physicsSensor"" property label"
+Object_PhysicsStartAwake,Start Awake,Iniciar despierto,,"object ""physicsStartAwake"" property label"
+Object_Solid,Solid,Sólido,,"Object Model ""solid"" property"
+Object_UsesPhysics,Uses Physics,Usa física,,"Object Model ""uses physics"" property"
+Object_Visible,Visible,Visible,,"Object Model ""visible"" property"
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,Acercar zoom,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,Alejar zoom,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,Reiniciar zoom,,Object editor physics window label
@@ -1054,19 +1053,19 @@ ObjectEditor_SelectMask,Select Mask,Seleccionar máscara,,Object editor select m
 ObjectEditor_SelectParent,Select Parent,Seleccionar matriz,,Object editor select parent caption
 ObjectEditor_Event,Event,Evento,,Event button
 ObjectEditor_Events,Events,Eventos,,object editor events heading
-ObjectEditor_ModifyCollisionShape,Modify Collision Shape,Modificar forma de colisión,,Object editor "modify collision shape" button label
+ObjectEditor_ModifyCollisionShape,Modify Collision Shape,Modificar forma de colisión,,"Object editor ""modify collision shape"" button label"
 ObjectEditor_Name,Name:,Nombre:,,Name label in obejct editor
 ObjectEditor_NewSprite,New,Nuevo,,object editor new sprite button
-ObjectEditor_NoParent,No Parent,Sin matriz,,Object editor "no parent" setting
-ObjectEditor_NoSprite,No Sprite,Sin sprite,,Object editor "no sprite" setting
+ObjectEditor_NoParent,No Parent,Sin matriz,,"Object editor ""no parent"" setting"
+ObjectEditor_NoSprite,No Sprite,Sin sprite,,"Object editor ""no sprite"" setting"
 ObjectEditor_ObjectProperties,Object Properties,Propiedades de objeto,,Object properties window title
 ObjectEditor_Physics,Physics,Física,,Physics label in Object Editor
 ObjectEditor_PhysicsProperties,Physics Properties,Propiedades físicas,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,Física de la forma de colisión,,Object editor physics shape window title
 ObjectEditor_Properties,Properties,Propiedades,,Object editor properties heading
-ObjectEditor_SameMask,Same As Sprite,Igual que el sprite,,Object editor "same as sprite" mask setting
+ObjectEditor_SameMask,Same As Sprite,Igual que el sprite,,"Object editor ""same as sprite"" mask setting"
 ObjectEditor_MaskSameAsSprite,Same As Sprite,Igual que el sprite,,Object editor same mask caption
-ObjectEditor_Shape,Convex Shape,Forma convexa,,Object editor collision shape "shape"
+ObjectEditor_Shape,Convex Shape,Forma convexa,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},Objeto: {0},,Object properties window title
 OutputPanel_Output,Output,Salida,,Output panel output tab name
 OutputPanel_SearchResults,Search Results,Resultados de búsqueda,,Output panel search results tab name
@@ -1127,7 +1126,7 @@ ResourceNode_AddExistingFromLibrary,Add Existing From My Library,Añadir existen
 ResourceNode_AddGroup,Add Group,Añadir grupo,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,Añadir desde vista predeterminada,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,Eliminar de vista actual,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,You are about to remove ""{0}"" from view ""{1}"". Continue?,Estás a punto de eliminar ""{0}"" de la vista ""{1}"". ¿Continuar?,,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView_Confirm,"You are about to remove ""{0}"" from view ""{1}"". Continue?","Estás a punto de eliminar ""{0}"" de la vista ""{1}"". ¿Continuar?",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,Crear,,Resource Tree node menu - create resource
 ResourceNode_GMLVisualToScript,Convert to GML Code,Convertir a código GML,,Resource Tree node menu - GML Visual To GML
 ResourceNode_ScriptToGMLVisual,Convert to GML Visual,Convertir a GML Visual,,Resource Tree node menu - script to GML Visual
@@ -1148,42 +1147,42 @@ ResourceNode_ImageAsSprite,Create Sprite From Image(s),Crear sprite a partir de 
 ResourceNode_Rename,Rename,Renombrar,,Resource Tree node menu - rename resource
 ResourceTree_Configs,Configurations,Configuraciones,,
 ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","You are about to delete the directory ""{0}"" and all the items it contains. Continue?",,Resource tree directory delete user confirmation
-ResourceTree_Extensions,Extensions,Extensiones,,Resource tree "Extensions" label
+ResourceTree_Extensions,Extensions,Extensiones,,"Resource tree ""Extensions"" label"
 ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","You are about to delete the file ""{0}"". Continue?",,Resource tree file delete user confirmation
-ResourceTree_Fonts,Fonts,Fuentes,,Resource tree "Fonts" label
-ResourceTree_IncludedFiles,Included Files,Archivos incluidos,,Resource tree "Included Files" label
+ResourceTree_Fonts,Fonts,Fuentes,,"Resource tree ""Fonts"" label"
+ResourceTree_IncludedFiles,Included Files,Archivos incluidos,,"Resource tree ""Included Files"" label"
 ResourceTree_NoResourceFound,No results found,Sin resultados,,message when nothing found when searching resource tree
-ResourceMenu_CreateExtension,Create Extension,Crear extensión,,Resource menu "Create Extension" entry
-ResourceMenu_CreateFont,Create Font,Crear fuente,,Resource menu "Create Font" entry
-ResourceMenu_CreateIncludedFile,Create Included File,Crear archivo incluido,,Resource menu "Create Included File" entry
-ResourceMenu_CreateObject,Create Object,Crear objeto,,Resource menu "Create Object" entry
-ResourceMenu_CreatePath,Create Path,Crear ruta,,Resource menu "Create Path" entry
-ResourceMenu_CreateRoom,Create Room,Crear sala,,Resource menu "Create Room" entry
-ResourceMenu_CreateScript,Create Script,Crear script,,Resource menu "Create Script" entry
-ResourceMenu_CreateShader,Create Shader,Crear shader,,Resource menu "Create Shader" entry
-ResourceMenu_CreateSound,Create Sound,Crear sonido,,Resource menu "Create Sound" entry
-ResourceMenu_CreateSprite,Create Sprite,Crear sprite,,Resource menu "Create Sprite" entry
-ResourceMenu_CreateTileset,Create Tile Set,Crear conjunto de casillas,,Resource menu "Create Tile Set" entry
-ResourceMenu_CreateNote,Create Note,Crear notas,,Resource menu "Create Note" entry
-ResourceMenu_CreateTimeline,Create Timeline,Crear línea temporal,,Resource menu "Create Timeline" entry
+ResourceMenu_CreateExtension,Create Extension,Crear extensión,,"Resource menu ""Create Extension"" entry"
+ResourceMenu_CreateFont,Create Font,Crear fuente,,"Resource menu ""Create Font"" entry"
+ResourceMenu_CreateIncludedFile,Create Included File,Crear archivo incluido,,"Resource menu ""Create Included File"" entry"
+ResourceMenu_CreateObject,Create Object,Crear objeto,,"Resource menu ""Create Object"" entry"
+ResourceMenu_CreatePath,Create Path,Crear ruta,,"Resource menu ""Create Path"" entry"
+ResourceMenu_CreateRoom,Create Room,Crear sala,,"Resource menu ""Create Room"" entry"
+ResourceMenu_CreateScript,Create Script,Crear script,,"Resource menu ""Create Script"" entry"
+ResourceMenu_CreateShader,Create Shader,Crear shader,,"Resource menu ""Create Shader"" entry"
+ResourceMenu_CreateSound,Create Sound,Crear sonido,,"Resource menu ""Create Sound"" entry"
+ResourceMenu_CreateSprite,Create Sprite,Crear sprite,,"Resource menu ""Create Sprite"" entry"
+ResourceMenu_CreateTileset,Create Tile Set,Crear conjunto de casillas,,"Resource menu ""Create Tile Set"" entry"
+ResourceMenu_CreateNote,Create Note,Crear notas,,"Resource menu ""Create Note"" entry"
+ResourceMenu_CreateTimeline,Create Timeline,Crear línea temporal,,"Resource menu ""Create Timeline"" entry"
 ResourceMenu_Resources,Resources,Recursos,,Main resources menu entry
 ResourceTree_MultipleResourceDelete_Confirm,Are you sure you want to delete these resources: {0}?,¿Está seguro de que desea eliminar estos recursos: {0}?,,Resource tree delete confirmation label
 ResourceTree_MultipleResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete these resources: {0}?\nIncluded files/folders on disk will be deleted,¿Está seguro de que desea eliminar estos recursos: {0}?\nLos archivos/carpetas incluidos en el disco serán eliminados,,Resource tree delete confirmation label
 ResourceTree_MultipleResourceDelete_Events_Confirm,Are you sure you want to delete these resources: {0}?\nCollision events with deleted objects will also be deleted,¿Está seguro de que desea eliminar estos recursos: {0}?\nLos eventos de colisión con objetos eliminados también serán eliminados,,Resource tree delete confirmation label
-ResourceTree_Notes,Notes,Notas,,Resource tree "Notes" label
-ResourceTree_Objects,Objects,Objetos,,Resource tree "Objects" label
+ResourceTree_Notes,Notes,Notas,,"Resource tree ""Notes"" label"
+ResourceTree_Objects,Objects,Objetos,,"Resource tree ""Objects"" label"
 ResourceTree_Options,Options,Opciones,,options
-ResourceTree_Paths,Paths,Rutas,,Resource tree "Paths" label
+ResourceTree_Paths,Paths,Rutas,,"Resource tree ""Paths"" label"
 ResourceTree_ResourceDelete_Confirm,Are you sure you want to delete {0}?,¿Está seguro de querer eliminar {0}?,,Resource tree delete confirmation label
 ResourceTree_ResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete {0}?\nIncluded files/folders on disk will be deleted,¿Está seguro de querer eliminar {0}?\nLos archivos/carpetas incluidos en el disco serán eliminados,,Resource tree folder delete confirmation label
 ResourceTree_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,¿Está seguro de querer eliminar {0}?\nLos eventos de colisión con objetos eliminados también serán eliminados,,Resource tree delete events confirmation label
-ResourceTree_Rooms,Rooms,Salas,,Resource tree "Rooms" label
-ResourceTree_Scripts,Scripts,Scripts,,Resource tree "Scripts" label
-ResourceTree_Shaders,Shaders,Shaders,,Resource tree "Shaders" label
-ResourceTree_Sounds,Sounds,Sonidos,,Resource tree "Sounds" label
-ResourceTree_Sprites,Sprites,Sprites,,Resource tree "Sprites" label
-ResourceTree_Tilesets,Tile Sets,Conjuntos de casillas,,Resource tree "Tile Sets" label
-ResourceTree_Timelines,Timelines,Líneas temporales,,Resource tree "Timelines" label
+ResourceTree_Rooms,Rooms,Salas,,"Resource tree ""Rooms"" label"
+ResourceTree_Scripts,Scripts,Scripts,,"Resource tree ""Scripts"" label"
+ResourceTree_Shaders,Shaders,Shaders,,"Resource tree ""Shaders"" label"
+ResourceTree_Sounds,Sounds,Sonidos,,"Resource tree ""Sounds"" label"
+ResourceTree_Sprites,Sprites,Sprites,,"Resource tree ""Sprites"" label"
+ResourceTree_Tilesets,Tile Sets,Conjuntos de casillas,,"Resource tree ""Tile Sets"" label"
+ResourceTree_Timelines,Timelines,Líneas temporales,,"Resource tree ""Timelines"" label"
 ResourceTree_Title,Assets,Activos,,Assets title
 ResourceTree_ViewNameInUse,View Name Already In Use,Nombre de vista ya en uso,,label to show view name is already in use when renaming
 ResourceTree_CannotRenameDefaultView,Cannot rename Default View,No se puede renombrar la vista predeterminada,,label to show that you cannot rename default view
@@ -1299,10 +1298,10 @@ RoomProperties_ViewX,X Pos,Pos X,,numeric text box label for view or view port x
 RoomProperties_ViewY,Y Pos,Pos Y,,numeric text box label for view or view port y pos
 RoomProperties_VSpeed,Vertical Speed,Velocidad vertical,,numeric text box label for view for vertical speed
 RoomProperties_Width,Width,Ancho,,numeric textbox caption for room width
-Run_Menu_Clean,Clean,Limpiar,,Run menu "Clean"
+Run_Menu_Clean,Clean,Limpiar,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Crear ejecutable,,The Create Executable menu item
-Run_Menu_Run,Run,Ejecutar,,Run menu "Run"
-Run_Menu_RunDebug,Debug,Depurar,,Run menu "Debug"
+Run_Menu_Run,Run,Ejecutar,,"Run menu ""Run"""
+Run_Menu_RunDebug,Debug,Depurar,,"Run menu ""Debug"""
 Saving,Saving...,Guardando...,,Saving
 SCM_Add_Path,Add Path,Añadir ruta,,Add a path to the SCM
 SCM_Clone,Clone Repository,Clonar repositorio,,Clone a Source Control Repository
@@ -1319,23 +1318,23 @@ SCM_Revert_All,Revert All,Revertir todo,,Revert all changes from Source Control
 SCM_Revert_Path,Revert Path,Revertir ruta,,Revert an item from Source Control
 SCM_Revert_Revision,Revert To This Revision,Revertir a esta revisión,,Revert to the selected revision in SCM
 SCM_Conflict_Title,Source Control Conflicts,Conflictos de control de fuente,,Source Control Conflicts window title
-SCM_Conflict_Theirs,Use Theirs,Usar los suyos,,Use "Their" version to resolve conflict
+SCM_Conflict_Theirs,Use Theirs,Usar los suyos,,"Use ""Their"" version to resolve conflict"
 SCM_Conflict_Merge,Merge,Fusionar,,Open Merge Tool
 SCM_Conflict_MergeTool,Choose Merge Tool,Elegir herramienta de fusión,,Choose which merge tool to use
 SCM_Conflict_MergeTool_Path,Tool location,Ubicación de herramienta,,The Path to the Tool to use
 SCM_Conflict_MergeTool_Options,Tool options,Opciones de herramienta,,The Options to send to the Tool
-SCM_Conflict_Mine,Use Mine,Usar el mío,,Use "Mine" to resolve conflict
+SCM_Conflict_Mine,Use Mine,Usar el mío,,"Use ""Mine"" to resolve conflict"
 SCM_Successful_Merge,Was the Merge operation successful?,¿La operación de fusión tuvo éxito?,,Wait for the Merge Tool to finish and ask the user if the operation has been a success
 SearchReplace_Cancelled,Search Cancelled,Búsqueda cancelada,,Search and Replace - Search Cancelled
 SearchReplace_CaseSensitive,Case Sensitive,Distingue mayúsculas de minúsculas,,Search and Replace - Case Sensitive
 SearchReplace_Complete,Search Complete ({0} results),Búsqueda completada ({0} resultados),,Search and Replace - Search Complete
-SearchReplace_ContentHeader,Content,Contenidos,,Search & Replace - Output window "content" header
+SearchReplace_ContentHeader,Content,Contenidos,,"Search & Replace - Output window ""content"" header"
 SearchReplace_EndOfResults,"End of search results reached, should we loop?","Se ha llegado al final de la búsqueda, ¿deberíamos empezar de nuevo?",,"End of Search and Replace results, loop to beginning or end?"
 SearchReplace_FindAll,Find All,Encontrar todo,,Search and Replace - Find All
 SearchReplace_FindNext,Find Next,Encontrar siguiente,,Search and Replace - Find Next
 SearchReplace_FindPrevious,Find Previous,Encontrar anterior,,Search and Replace - Find Previous
-SearchReplace_ItemHeader,Item,Elemento,,Search & Replace - Output window "item" header
-SearchReplace_LineHeader,Line,Línea,,Search & Replace - Output window "line" header
+SearchReplace_ItemHeader,Item,Elemento,,"Search & Replace - Output window ""item"" header"
+SearchReplace_LineHeader,Line,Línea,,"Search & Replace - Output window ""line"" header"
 SearchReplace_NoResults,No results were found.,Sin resultados.,,Search and Replace - No results found.
 SearchReplace_Replace,Replace:,Reemplazar:,,Search and Replace - Replace
 SearchReplace_ReplaceAll,Replace All,Reemplazar todo,,Search and Replace - Replace All
@@ -1373,10 +1372,10 @@ SoundMixer_UntitledGroup,Untitled Group,Grupo sin título,,Label of Untitled Gro
 SoundMixer_TooManyGroupsTitle,Too Many Sound Mixer Groups,Demasiados grupos de mezcla de sonido,,There are Too Many Sound Mixer Groups title
 SoundMixer_TooManyGroups,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.,En esta ventana hay demasiados grupos de mezcla de sonido. Puede abrir otro mezclador de sonido o cerrar los grupos que no use en esta ventana.,,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.t
 SourceControl_ActionEnded,"Attempting to request further source control actions on '{0}' after end has been called, create a new sourcecontrolaction class or use WaitForPrevious to insert blocking sections between requests","Intentando solicitar más acciones de control de fuente en ""{0}"" tras haber llamado al final, cree una nueva clase sourcecontrolaction o use WaitForPrevious para insertar secciones de bloqueo entre solicitudes",,exception message for when the code has attempted to request an action after End() has been called
-SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully completed,La acción de control de fuente "{0}" no se ha completado con éxito,,error message for a source control action End() returning from a blocking wait when the action hasn't fully completed
-SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,La acción de control de fuente "{0}" tiene una acción inválida en la cola de peticiones,,exception message for when we have hit an invalid action request
+SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully completed,"La acción de control de fuente ""{0}"" no se ha completado con éxito",,error message for a source control action End() returning from a blocking wait when the action hasn't fully completed
+SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,"La acción de control de fuente ""{0}"" tiene una acción inválida en la cola de peticiones",,exception message for when we have hit an invalid action request
 SourceControlGit_NeedIdentity,Source Control (Git) Invalid Credentials,Control de fuente (Git) Credenciales inválidas,,Require Credentials Dialog Title
-SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,El repositorio "{0}" está esperando un Nombre de usuario / Contraseña de los establecidos en las preferencias de Identidad.,,The Git repository is expecting a different username and password message.
+SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,"El repositorio ""{0}"" está esperando un Nombre de usuario / Contraseña de los establecidos en las preferencias de Identidad.",,The Git repository is expecting a different username and password message.
 SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,Control de fuente (Git) Sin repositorio,,There is no Git Repository (Title)
 SourceControlGit_NoRepoMessage,"There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.",Este proyecto no tiene un repositorio Git configurado.\nPruebe Crear si quiere un repositorio local o Importar a uno existente.,,"There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import."
 SourceControlGit_NoIdentity,Source Control (Git) No Identity,Control de fuente (Git) Sin identidad,,There is no Git Identity set (Title)
@@ -1536,12 +1535,12 @@ StripDialog_VSeparation,Vertical Separation,Separación vertical,,strip dialog v
 StripDialogTitle,Create from Strip,Crear desde tira,,strip image import dialog title
 StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,"Importar tiras de imágenes reemplazará a los frames de los sprites ya existentes, ¿quiere continuar?",,strip image import warning
 StyleManager_DuplicateStyle,"Duplicate style '{0}' found, it will be discarded as overwrite is set to false","Se ha encontrado un estilo duplicado ({0}), se desechará como sobrescrito y se establecerá como falso",,Log message for when loading a duplicate style name with 'overwrite' set to false
-StyleManager_ICloneableFail,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,Error al clonar el objeto de valor de estilo de clase "{0}" la clase de objeto debe implementar |Interfaz clonable,,exception message when attempting to clone an uncloneable object
-StyleManager_ICollectionCloneFail,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,Error al clonar el objeto de valor de estilo de clase "{0}" la clases de colecciones deben tener un clon profundo personalizado implementado,,exception message when attempting to clone an ICollection which doesn't have a deep clone available
+StyleManager_ICloneableFail,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,"Error al clonar el objeto de valor de estilo de clase ""{0}"" la clase de objeto debe implementar |Interfaz clonable",,exception message when attempting to clone an uncloneable object
+StyleManager_ICollectionCloneFail,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,"Error al clonar el objeto de valor de estilo de clase ""{0}"" la clases de colecciones deben tener un clon profundo personalizado implementado",,exception message when attempting to clone an ICollection which doesn't have a deep clone available
 TabControl_AddTab,Add New Tab,Añadir pestaña nueva,,Add a new tab to the tab control context menu entry
-TabControl_AddTabAfter,Add New Tab After '{0}',Añadir pestaña nueva después de "{0}",,Add a new tab to the tab control context menu entry after the active tab
-TabControl_MoveTabBack,Move Tab '{0}' Back,Mover la pestaña "{0}" hacia adelante,,Move the tab back one space context menu entry
-TabControl_MoveTabForward,Move Tab '{0}' Forward,Mover la pestaña "{0}" hacia atrás,,Move the tab forward one space context menu entry
+TabControl_AddTabAfter,Add New Tab After '{0}',"Añadir pestaña nueva después de ""{0}""",,Add a new tab to the tab control context menu entry after the active tab
+TabControl_MoveTabBack,Move Tab '{0}' Back,"Mover la pestaña ""{0}"" hacia adelante",,Move the tab back one space context menu entry
+TabControl_MoveTabForward,Move Tab '{0}' Forward,"Mover la pestaña ""{0}"" hacia atrás",,Move the tab forward one space context menu entry
 TextEditor_Clear,Clear,Borrar,,Clear TextEditor context menu entry
 TextEditor_Copy,Copy,Copiar,,Text editor copy command
 TextEditor_Cut,Cut,Cortar,,Text editor cut command
@@ -1622,7 +1621,7 @@ TileSetEditor_TileSize,Tile Size,Tamaño de casilla,,tile set editor size numeri
 TileSetEditor_TileWidth,Tile Width,Ancho de casilla,,tile set editor width numeric textbox caption
 TileSetEditor_Title,Tile Set: {0},Conjuntos de casilla: {0},,tile set editor window title
 TileSetEditor_UseAsTileSet,Use As Tileset,Usar como conjunto de casillas,,tile set editor use as tileset checkbox caption
-TileSetGenerator_Complete,Tile Set: Image generated for '{0}',Conjunto de casillas: Imagen generada para "{0}",,console output message for when a tile set image has been generated
+TileSetGenerator_Complete,Tile Set: Image generated for '{0}',"Conjunto de casillas: Imagen generada para ""{0}""",,console output message for when a tile set image has been generated
 TimeLine_BtnAdd,Add,Añadir,,Add button caption for timeline editor
 TimeLine_BtnChange,Change,Cambiar,,Change button caption for timeline editor
 TimeLine_BtnClear,Clear,Borrar,,Clear button caption for timeline editor
@@ -1693,8 +1692,8 @@ Validate_MVCTypeList,{0} - List should only contain objects of type {2}{1},{0} -
 Validate_Range,{0} - Value must be within range {1} - {2},{0} - El valor debería estar dentro del rango {1} - {2},,Failed validation for value range
 Validate_Required,{0} - Value cannot be null,{0} - El valor no puede ser nulo,,Failed validation by passing a null value to a required property
 Validate_StringLength,{0} - String length is invalid must be between {1} and {2} characters,"{0} - El largo de la cadena es inválido, debe tener entre {1} y {2} caracteres",,Failed validation for string length
-Validate_UniqueLayerName,Failed to set layer name '{0}' it is not unique within room,Error al establecer el nombre de capa "{0}" no es el único en la sala,,validation error message for non-unique layer name
-Validate_UniqueName,Failed to set property on model '{0}' name is not unique,Erro al establecer propiedad en el modelo "{0}" el nombre no es único,,validation error message for non-unique resource name
+Validate_UniqueLayerName,Failed to set layer name '{0}' it is not unique within room,"Error al establecer el nombre de capa ""{0}"" no es el único en la sala",,validation error message for non-unique layer name
+Validate_UniqueName,Failed to set property on model '{0}' name is not unique,"Erro al establecer propiedad en el modelo ""{0}"" el nombre no es único",,validation error message for non-unique resource name
 Validate_ImageLayerName,Layer name cannot be blank,El nombre de la capa no puede estar en blanco,,validation error message for image layer name
 View_Menu_Bookmarks,Bookmarks,Marcadores,,Bookmarks menu item
 View_Menu_Breakpoints,Breakpoints,Interrupciones,,View breakpoints menu item
@@ -1882,8 +1881,8 @@ Tutorial_Dock_Title,Tutorial,Tutorial,,tutorial dock tab title
 Tutorial_FileMissing,Could not find {0},No se ha podido encontrar {0},,tutorial missing file message
 Tutorial_DisplayNameMissing,Display name must be set,Se debe establecer un nombre en pantalla,,tutorial missing display name message
 Tutorial_PurchaseFailed,Error acquiring tutorial: {0},Error al obtener el tutorial: {0},,tutorial purchase error message
-Tutorial_CreateInfo,Add content to Included Files "TutorialContent" folder,Añadir contenido a la carpeta Included Files "TutorialContent",,tutorial package create info label
-Tutorial_CreateInfo2,Add files for the user to import to Included Files "TutorialResources" folder,Añade archivos para que el usuario los importe a la carpeta Included Files "TutorialResources",,tutorial package create info label
+Tutorial_CreateInfo,"Add content to Included Files ""TutorialContent"" folder","Añadir contenido a la carpeta Included Files ""TutorialContent""",,tutorial package create info label
+Tutorial_CreateInfo2,"Add files for the user to import to Included Files ""TutorialResources"" folder","Añade archivos para que el usuario los importe a la carpeta Included Files ""TutorialResources""",,tutorial package create info label
 Tutorial_UpdateAvailableNotification,Update Available: {0},Actualización disponible: {0},,tutorial package update available notification
 Demo_PurchaseFailed,Error Acquiring Demo: {0},Error al obtener demostración: {0},,demo purchase error message
 yyzimporter_message,YYZ Importer,Importador YYZ,,YYZ Importer Message Title
@@ -1996,9 +1995,9 @@ ggs_android_lint,Run Lint code analysis,Ejecutar análisis de código Lint,,Run 
 ggs_landscape_splash_screen,Landscape Splash Screen,Pantalla inicial vertical,,Landscape Splash Screen
 ggs_portrait_splash_screen,Portrait Splash Screen,Pantalla inicial horizontal,,Portrait Splash Screen
 ggs_splash_screen,Splash Screen Image,Imagen de la pantalla inicial,,Splash Screen Image
-LicenceExcluded_ggs_splash_screen,Splash screen image cannot be changed on 'Creator' platforms,La pantalla inicial no puede cambiarse en las plataformas "Creator",Do not localise 'Creator' it's a product name,forced splash screen image tooltip
+LicenceExcluded_ggs_splash_screen,Splash screen image cannot be changed on 'Creator' platforms,"La pantalla inicial no puede cambiarse en las plataformas ""Creator""",Do not localise 'Creator' it's a product name,forced splash screen image tooltip
 ggs_use_splash_screen,Use splash screen,Usar pantalla inicial,,Use Splash Screen
-LicenceExcluded_ggs_use_splash_screen,Splash screen cannot be disabled on 'Creator' platforms,La pantalla inicial no puede desactivarse en las plataformas "Creator",Do not localise 'Creator' it's a product name,use splash force enabled tooltip
+LicenceExcluded_ggs_use_splash_screen,Splash screen cannot be disabled on 'Creator' platforms,"La pantalla inicial no puede desactivarse en las plataformas ""Creator""",Do not localise 'Creator' it's a product name,use splash force enabled tooltip
 ggs_minimum_display_time,Minimum time to display,Tiempo mínimo a mostrar,,Minimum time to display
 ggs_interpolate_pixels,Interpolate colours between pixels,Interpolar colores entre los píxeles,,Interpolate colours between pixels
 ggs_screen_colour_depth,Screen Colour Depth,Profundidad de color de pantalla,,Screen Colour Depth
@@ -2043,7 +2042,7 @@ ggs_foldername,Folder Name,Nombre de la carpeta,,Name of Folder
 ggs_outputname,Output Name,Nombre de salida,,Output Name
 ggs_output_debug_to_console,Output debug to console,Depurar salida a la consola,,Output Debug to Console
 ggs_generate_spotify_app,Generate Spotify App,Generar app de Spotify,,Generate Spotify App
-ggs_display_outside_server_alert,Display "Running outside server" alert,Mostrar alerta "Ejecutando fuera del servidor",,Display the running outside of server alert
+ggs_display_outside_server_alert,"Display ""Running outside server"" alert","Mostrar alerta ""Ejecutando fuera del servidor""",,Display the running outside of server alert
 ggs_prepend_js,Prepend output .js with,Preparar salida .js con,,Prepend output .js with
 ggs_icon,Icon,Icono,,Icon
 ggs_icon_57,57x57 Icon,Icono 57x57,,57x57 Icon
@@ -2461,11 +2460,11 @@ GMLVisualModule_Toolbox_SearchText,Search...,Buscar...,,Toolbox search placehold
 fonteditor_aa_default,Default,Predeterminado,,Default setting for font AA
 use_default,Use Default,Usar predeterminado,,Use Default setting
 desktop_unmaxdragdist,Tab drag distance to unmaximise desktop (px),Distancia de arrastre de pestaña para desmaximizar el escritorio (px),,Distance in pixels the tab must be dragged before it will unmaximise the desktop
-SaveProjectAs_UnsafeLocationMessage,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,La ubicación que ha elegido no es segura.\n\n¿Está seguro de que quiere guardar en "{0}",,Warning message if the user tries to save to a daft location
-SaveProjectAs_DeleteExisting,Are you sure you want to delete all files in '{0}'?,¿Está seguro de querer eliminar todos los archivos en "{0}"?,,Confirmation for deleting an existing project and related files
+SaveProjectAs_UnsafeLocationMessage,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,"La ubicación que ha elegido no es segura.\n\n¿Está seguro de que quiere guardar en ""{0}""",,Warning message if the user tries to save to a daft location
+SaveProjectAs_DeleteExisting,Are you sure you want to delete all files in '{0}'?,"¿Está seguro de querer eliminar todos los archivos en ""{0}""?",,Confirmation for deleting an existing project and related files
 SplashScreen_PluginLoadFailed,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,"Error al cargar un plug-in necesario. Intente reiniciar GameMaker.  Si el problema continúa, reinstale GameMaker.",,Error message when you fail to load a required plugin dll
 SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Error al cargar un plug-in necesario,,Title for error message when you fail to load a required plugin dll
-SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,El proyecto "{0}" no existe,,Message dialog when the program was launched with a file command argument but the file was not found
+SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,"El proyecto ""{0}"" no existe",,Message dialog when the program was launched with a file command argument but the file was not found
 SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker project,'{0}' is not a valid GameMaker project,,Message dialog when the program was launched with a file command argument of a non .yyp file
 SplashScreen_LaunchProjectFailed,Launch Project Failed,Error al iniciar proyecto,,Message dialog title when the program was launched with a file command argument but it has failed
 LicensedModulesError,Your licence does not have this module enabled,Su licencia no tiene activado este módulo,,Message Dialog for when a user tries to build/run a target their licence doesn't have
@@ -2480,7 +2479,7 @@ GMLVisual_Pref_RecentlyUsed,Maximum number of recently used actions to display,N
 GMLVisual_Pref_ChainSmoothness,The smoothness of the chain.,La suavidad de la cadena.,,GML Visual pref
 GMLVisual_Pref_DragTime,Mouse down time to start dragging node (ms),Tiempo del ratón abajo para empezar a arrastrar el nodo (ms),,GML Visual pref
 GMLVisual_Message_Error_Prefix,ERROR:,ERROR:,,GML Visual message prefix
-GMLVisual_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,El nodo "{0}" está provocando un flujo inválido del programa. Muévalo a una ubicación correcta.,,GML Visual message syntax error
+GMLVisual_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","El nodo ""{0}"" está provocando un flujo inválido del programa. Muévalo a una ubicación correcta.",,GML Visual message syntax error
 GMLVisual_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,Inserción inválida,,GML Visual pop up title for below message
 GMLVisual_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,Insertar {0} en esta ubicación provocaría un programa inválido.,,GML Visual pop up message for invalid syntax insertion
 ggs_webserver_port,Web Server Port,Puerto del servidor web,,Webserver Port
@@ -2497,20 +2496,20 @@ Project_DirectoryReconnected_Message,"Project directory '{0}' has been reconnect
 Project_DirectoryReconnected_Title,Project Directory Reconnected,Directorio del proyecto reconectado,,message box title when the project directory has been reconnected
 Project_InheritedDirectoryReconnected_Message,"Base project directory '{0}' has been reconnected. There may have been undetected changes, would you like to reload the project?","El directorio del proyecto base ""{0}"" se ha reconectado. Puede que haya cambios sin detectar, ¿quiere recargar el proyecto?",,message box contents when the project directory has been reconnected
 Project_InheritedDirectoryReconnected_Title,Base Project Directory Reconnected,Directorio del proyecto base reconectado,,message box title when the inherited project directory has been reconnected
-Project_LargeChanges_Message,"Project directory '{0}' has had a large number of changes detected. Would you like to reload the project, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",Se han detectado un gran número de cambios en el directorio del proyecto "{0}". ¿Quiere recargar el proyecto o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados,,message box contents when the project directory has been reconnected due to a buffer overflow
+Project_LargeChanges_Message,"Project directory '{0}' has had a large number of changes detected. Would you like to reload the project, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Se han detectado un gran número de cambios en el directorio del proyecto ""{0}"". ¿Quiere recargar el proyecto o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados",,message box contents when the project directory has been reconnected due to a buffer overflow
 Project_LargeChanges_Title,Project Directory Modified,Directorio del proyecto modificado,,message box title when the project directory has been reconnected due to a buffer overflow
 Project_InheritedLargeChanges_Message,"Base project directory '{0}' has been reconnected. There may have been undetected changes, would you like to reload the project?","El directorio del proyecto base ""{0}"" se ha reconectado. Puede que haya cambios sin detectar, ¿quiere recargar el proyecto?",,message box contents when the project directory has been reconnected due to a buffer overflow
 Project_InheritedLargeChanges_Title,Base Project Directory Modified,Directorio del proyecto base modificado,,message box title when the inherited project directory has been reconnected due to a buffer overflow
 ProjectReconnected_Reload,Reload,Recargar,,button message for reloading the project
 ProjectReconnected_Save,Save,Guardar,,button message for saving the project
-Project_Changes_Message,"Changes detected in project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",Se han detectado cambios en el directorio del proyecto "{0}". ¿Quiere recargar los recursos o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados,,message box contents when the project directory has detected changes
+Project_Changes_Message,"Changes detected in project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Se han detectado cambios en el directorio del proyecto ""{0}"". ¿Quiere recargar los recursos o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados",,message box contents when the project directory has detected changes
 Project_Changes_Title,Project Directory Modified,Directorio del proyecto modificado,,message box title when the project directory has detected changes
-Project_InheritedChanges_Message,"Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",Se han detectado cambios en el directorio base del proyecto "{0}". ¿Quiere recargar los recursos o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados,,message box contents when the project directory has detected changes
+Project_InheritedChanges_Message,"Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Se han detectado cambios en el directorio base del proyecto ""{0}"". ¿Quiere recargar los recursos o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados",,message box contents when the project directory has detected changes
 Project_InheritedChanges_Title,Project Directory Modified,Directorio del proyecto modificado,,message box title when the project directory has detected changes
-Project_ProjFileChanged_Message,"The main project file '{0}' has changed. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",El archivo principal del proyecto "{0}" ha cambiado. ¿Quiere recargar los recursos o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados,,message box contents when the main project file has changed
+Project_ProjFileChanged_Message,"The main project file '{0}' has changed. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","El archivo principal del proyecto ""{0}"" ha cambiado. ¿Quiere recargar los recursos o guardar?\n\nAVISO: Guardar solo actualizará los archivos de recursos que estén actualmente en la memoria y por lo tanto puede que no restauren algunos de los archivos eliminados o editados",,message box contents when the main project file has changed
 Project_ProjFileChanged_Title,Project Modified,Proyecto modificado,,message box title when the main project file has changed
 Project_Deleted_Title,Project Deleted,Proyecto eliminado,,message box title when a project has been deleted
-Project_Deleted_Message,The project file '{0}' was deleted. Your project will now be closed.,El archivo principal del proyecto "{0}" ha sido eliminado. Su proyecto se cerrará ahora.,,Error message telling the user the project has been deleted
+Project_Deleted_Message,The project file '{0}' was deleted. Your project will now be closed.,"El archivo principal del proyecto ""{0}"" ha sido eliminado. Su proyecto se cerrará ahora.",,Error message telling the user the project has been deleted
 keystore_filename,Filename,Nombre de archivo,,Keystore Filename
 keystore_password,Password,Contraseña,,Keystore Password
 keystore_alias,Alias,Alias,,Keystore Alais
@@ -2573,9 +2572,9 @@ ObjectEditor_DefaultEventComment,Default event content,Contenido de evento prede
 ObjectEditor_ShowDefaultHelpPref,Add default event content,Añadir contenido de evento predeterminado,,Object editor module default text preference
 GMLVisual_ReservedTagName,The tag name {0} is reserved and cannot be used.,El nombre de la etiqueta {0} está reservado y no puede utilizarse.,,GML VisualGadget reserved tag name warning
 GMLVisual_ReservedTagName_Title,Reserved Tag Name,Nombre de etiqueta reservado,,GML VisualGadget reserved tag name warning message title
-Room_InvalidDepthsImportedLog,Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.,Las profundidades de capas importadas para la sala (o salas) "{0}" no se espaciaron adecuadamente. A menos que se actualice esto tendrá resultados indefinidos en el juego.,,conversion log message where layer depths are invalid and have not been adjusted
-Room_InvalidDepthsImportedMessage,Imported layer depths for rooms listed below are not adequately spaced. Do you want to redistribute depths? This may require updating scripts where depth values have been used. \nChoosing 'no' will maintain the user defined depths but will have undefined results in game.,Las profundidades de capas importadas para las salas de la lista inferior no están espaciadas adecuadamente. ¿Quiere redistribuir las profundidades? Esto puede requerir actualizar scripts en los que se hayan usado valores de profundidad. \nElegir "no" mantendrá las profundidades definidas por el usuario pero tendrá resultados indefinidos en el juego.,,message when importing a project which has invalid layer depths
-Room_AutoDepthUpdateMessage,"User defined layer depths are not adequately spaced. Do you want to redistribute depths? \nChoosing 'no' will maintain the user defined depths, but will have undefined results in game.",Las profundidades de capa definidas por el usuario no están espaciadas adecuadamente. ¿Quiere redistribuir las profundidades? \nElegir "no" mantendrá las profundidades definidas por el usuario pero tendrá resultados indefinidos en el juego.,,the message when a user tries to put too many layers between their user defined layers such that we can't create unique depths.
+Room_InvalidDepthsImportedLog,Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.,"Las profundidades de capas importadas para la sala (o salas) ""{0}"" no se espaciaron adecuadamente. A menos que se actualice esto tendrá resultados indefinidos en el juego.",,conversion log message where layer depths are invalid and have not been adjusted
+Room_InvalidDepthsImportedMessage,Imported layer depths for rooms listed below are not adequately spaced. Do you want to redistribute depths? This may require updating scripts where depth values have been used. \nChoosing 'no' will maintain the user defined depths but will have undefined results in game.,"Las profundidades de capas importadas para las salas de la lista inferior no están espaciadas adecuadamente. ¿Quiere redistribuir las profundidades? Esto puede requerir actualizar scripts en los que se hayan usado valores de profundidad. \nElegir ""no"" mantendrá las profundidades definidas por el usuario pero tendrá resultados indefinidos en el juego.",,message when importing a project which has invalid layer depths
+Room_AutoDepthUpdateMessage,"User defined layer depths are not adequately spaced. Do you want to redistribute depths? \nChoosing 'no' will maintain the user defined depths, but will have undefined results in game.","Las profundidades de capa definidas por el usuario no están espaciadas adecuadamente. ¿Quiere redistribuir las profundidades? \nElegir ""no"" mantendrá las profundidades definidas por el usuario pero tendrá resultados indefinidos en el juego.",,the message when a user tries to put too many layers between their user defined layers such that we can't create unique depths.
 Room_AutoDepthUpdateTitle,Layer Depth Error,Error de profundidad de capa,,message title when the user has given invalid layer depths
 roomdefaultstep,Default layer depth spacing,Espaciado de profundidad de capa predeterminado,,the preference label for auto depth layer spacing
 room_autodepthchoice,Automatic response to updating layer depths,Respuesta automática a la actualización de profundidades de capa,,preference label for the auto depth confirmation dialog preference
@@ -2614,7 +2613,7 @@ keystore_jdk_error,JDK not installed correctly at location entered in Android Pl
 keystore_show_error,Could not process Keystore; may be corrupt or have incorrect password,"No se puede procesar el Keystore, puede estar corrompido o tener una contraseña incorrecta",,Keystore error during processing
 keystore_small_alias,Alias password must be longer than 5 characters,La contraseña del alias debe tener más de 5 caracteres,,Alias password must be longer than 5 characters
 keystore_invalid_alias_password,Invalid characters in alias password,Caracteres inválidos en la contraseña del alias,,Invalid characters in alias password
-GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,El grupo de texturas para el sprite "{0}" es inválido - pasando al grupo de texturas predeterminado,,Error message on importing that a sprite texture group is wrong
+GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,"El grupo de texturas para el sprite ""{0}"" es inválido - pasando al grupo de texturas predeterminado",,Error message on importing that a sprite texture group is wrong
 ggs_enable_flurry,Enable Flurry Analytics,Activar Flurry Analytics,,Enable Flurry Analytics
 ggs_enable_google_analytics,Enable Google Analytics,Activar Google Analytics,,Enable Google Analytics
 ggs_google_analytics_id,Google Analytics ID,ID de Google Analytics,,Google Analytics Id
@@ -2784,7 +2783,7 @@ TileSet_AutoTile,Auto Tiling,Auto encasillado,,the tile set auto tile window tit
 TileSetEditor_Editors,Editors:,Editores:,,the tile set heading for the various sub editor buttons
 IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker se ha vuelto inestable.\nGuarde los cambios y salga.,,Warn the user they should try saving changes and exit
 IDE_FatalErrorTitle,Fatal Error,Error fatal,,Title for the fatal error warning dialog
-SpriteSelector_NoSprite,No Sprite,Sin sprite,,Sprite selector "no sprite" setting
+SpriteSelector_NoSprite,No Sprite,Sin sprite,,"Sprite selector ""no sprite"" setting"
 SpriteSelector_Dimensions,{0} x {1},{0} x {1},,Sprite selector dimensions label ie. width x height
 SpriteSelector_DragMessage,Drop here to assign sprite,Soltar aquí para asignar sprite,,message displayed while dragging a sprite resource
 TileSetEditor_TileProperties,Tile Properties,Propiedades de casilla,,the tileset properties window heading for the tile properties
@@ -2798,7 +2797,7 @@ SpriteEditorPref_FailedToLoadImages,Automatic response to image load failure,Res
 Dialog_ImportFailed_Title,Import Failed,Error al importar,,Import failed dialog title
 Dialog_ImportFailed_Msg,Failed to import the chosen files.,Error al importar los archivos elegidos.,,Import failed dialog message
 Texture_BoundsInvalid_Title,Texture Size Not Supported,Tamaño de textura no compatible,,VerifyTextureSizeGPU check failed
-Texture_BoundsInvalid_File,The texture at path '{0}' ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,La textura en la ruta "{0}" ({1}x{2}) supera la dimensión máxima compatible ({3}x{3}) y no puede cargarse.,,VerifyTextureSizeGPU check failed
+Texture_BoundsInvalid_File,The texture at path '{0}' ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,"La textura en la ruta ""{0}"" ({1}x{2}) supera la dimensión máxima compatible ({3}x{3}) y no puede cargarse.",,VerifyTextureSizeGPU check failed
 Texture_BoundsInvalid,A texture ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,Una textura ({1}x{2}) supera la dimensión máxima compatible ({3}x{3}) y no puede cargarse.,,VerifyTextureSizeGPU check failed
 rowpadding_description,Workspace chain row padding (px),Acolchado de la fila de cadena del espacio de trabajo (px),,the prefernces label for workspace row padding
 linkcolour_description,Workspace chain link colour,Color del eslabón de la cadena del espacio de trabajo,,Link Colour in Workspaces
@@ -2830,10 +2829,10 @@ YoYoImage_BmpRleNotSupported,Runlength encoded not supported for .bmp formatted 
 PhysicsShapeEditor_Radius,Radius {0},Radio {0},,Physics shape editor circle radius
 IMPORT_FAILED_UNKNOWN_FILETYPE,Cannot import incompatible resource: {0} (unknown file type),No se puede importar el recurso incompatible: {0} (tipo de archivo desconocido),,Add Existing failed
 IMPORT_FAILED_DISALLOWED_FILETYPE,Cannot add existing {0} resources,No se pueden añadir los recursos existentes {0},,Add Existing failed due to disallowed resources
-platformdevice_android_title,Android Devices,Dispositivos Android,,Title for window that says "No devices detected"
+platformdevice_android_title,Android Devices,Dispositivos Android,,"Title for window that says ""No devices detected"""
 platformdevice_androidsettings_title,Android Settings Error,Error de ajustes de Android,,Error in Android Settings
 platformdevice_androidsettings_sdk_misconfigured,The Android SDK path is misconfigured,La ruta del Android SDK está mal configurada,,The Android SDK path is misconfigured
-platformdevice_amazonfire_title,Amazon Fire Devices,Dispositivos Amazon Fire,,Title for the window that says "No devices detected"
+platformdevice_amazonfire_title,Amazon Fire Devices,Dispositivos Amazon Fire,,"Title for the window that says ""No devices detected"""
 platformdevice_amazonfiresettings_title,Amazon Fire Settings Error,Error en los ajustes de Amazon Fire,,Error in Amazon Fire Settings
 platformdevice_amazonfiresettings_sdk_misconfigured,The Amazon Fire Android SDK path is misconfigured,La ruta del Amazon Fire Android SDK está mal configurada,,The Amazon Fire Android SDK path is misconfigured
 SourceControlGit_PullError_Title,Source Control (Git) Pull Error,Control de fuente (Git) Error de Pull,,Source Control (Git) Pull Error
@@ -3010,7 +3009,7 @@ GMLVisualToolbox_Menu_ClearFavs,Clear Favourites,Eliminar favoritos,,GML Visual�
 SourceControlGit_FileLock,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,Uno o más archivos pueden estar bloqueados. Compruebe que ningún de los archivos esté abierto en programas externos. ¿Quiere intentarlo de nuevo?,,
 SourceControlGit_Error,Source Control (Git) Error,Control de fuente (Git) Error,,Error with Source Control (Git)
 SourceControlGit_ProjectBreakRetry,"Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.","Tenga en cuenta que esto puede haber roto su proyecto, ya que el comando no tuvo éxito y ha elegido no reintentarlo.",,Project may be broken warning due to command failing and choosing not to retry
-SourceControlGit_ServerNotFound,Server '{0}' has not been found,No se ha encontrado el servidor "{0}",,Server has not been found error
+SourceControlGit_ServerNotFound,Server '{0}' has not been found,"No se ha encontrado el servidor ""{0}""",,Server has not been found error
 SourceControlGit_NotEmptyDirectory,The chosen directory must be empty,El directorio elegido debe estar vacío,,The chosen directory must be empty
 SourceControlGit_InvalidPath,The URL is invalid,La URL no es válida,,The URL is invalid
 SourceControlGit_Clone,Source Control (Git) Clone,Control de fuente (Git) Clonar,,Source Control (Git) Clone Title
@@ -3081,7 +3080,7 @@ GMStdIfExpr_Desc,Check if an expression is true or false.,Comprueba si una expre
 GMStdIfUndef_Name,If Undefined,Si indefinida,,GML Visual library action name
 GMStdIfUndef_Desc,Check if a variable is or isn't undefined.,Comprueba si una variable está definida o no.,,GML Visual library action description
 GMStdElse_Name,Else,De lo contrario,,GML Visual library action name
-GMStdElse_Desc,Append this to an if-statement to execute code when the condition evaluates to false.,Añade esto a una condición "si..." para ejecutar código cuando la condición se considere falsa.,,GML Visual library action description
+GMStdElse_Desc,Append this to an if-statement to execute code when the condition evaluates to false.,"Añade esto a una condición ""si..."" para ejecutar código cuando la condición se considere falsa.",,GML Visual library action description
 GMStdExCode_Name,Execute Code,Ejecutar código,,GML Visual library action name
 GMStdExCode_Desc,Execute a piece of code.,Ejecuta una parte del código.,,GML Visual library action description
 GMStdExScript_Name,Execute Script,Ejecutar script,,GML Visual library action name
@@ -3855,7 +3854,7 @@ WelcomePage_InstallingTitle,While we finish up your installation...,Mientras ter
 WelcomePage_WelcomeTitle,Welcome,Bienvenido,,title to be used if not installing.
 Welcome_ShowOnStartup,Show on startup,Mostrar al iniciar,,do not show again label
 WelcomePage_Close,Close,Cerrar,,close label
-WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,por que no descubre nuestro nuevo vídeo {0}"Primeros pasos"{1},,{0} and {1} are used to include bold text - must be maintained in translation
+WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,"por que no descubre nuestro nuevo vídeo {0}""Primeros pasos""{1}",,{0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}","Siéntese, relájese y deje que le introduzcamos algunas de nuestras excelentes {0}""Nuevas funciones""{1}",,{0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more","{0}""Acceso a todas las áreas""{1}. Encuentre todo lo que necesite en un sitio. Tutoriales, mercado, soporte y mucho más",,{0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_ShowOnStartup,Show welcome screen on startup,Mostrar pantalla de bienvenida al iniciar,,preference text
@@ -3921,13 +3920,13 @@ GMStdGetAlpha_Desc,Get the alpha channel (0 to 1) used for drawing.,Obtiene el c
 GMStdUseAlpha,Use Alpha,Usar alfa,,GML Visual node label
 TextEditorPanel_ConvertToGMLVisual,Convert to GML Visual,Convertir a GML Visual,,Convert the current script to GML Visual
 Marketplace_CreatePackageDetails,Package Details:,Detalles del paquete:,,package details heading
-Marketplace_InactiveTutorialSettings,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,Aquí aparecerán los ajustes del contenido del tutorial cuando haya seleccionado el tipo de paquete "Tutorial",,the message displayed when the tutorial settings are inactive
+Marketplace_InactiveTutorialSettings,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,"Aquí aparecerán los ajustes del contenido del tutorial cuando haya seleccionado el tipo de paquete ""Tutorial""",,the message displayed when the tutorial settings are inactive
 CloseNonEmptyWorkspaceTabMessage,"Closing this workspace will also close the contained editors, are you sure?","Al cerrar este espacio de trabajo también cerrará los editores que contiene, ¿está seguro?",,confirmation dialog message when closing a workspace tab with open editors
 CloseNonEmptyWorkspaceTabTitle,Closing a non-empty workspace,Cerrando un espacio de trabajo no vacío,,confirmation dialog title
 enableclosetabshortcut,Allow empty tabs to be closed via the keyboard shortcut,Permitir cerrar las pestañas vacías mediante el atajo del teclado,,close tab label
 autoclosenonemptyworkspacetabs,Automatic response to closing a workspace via keyboard shortcut,Respuesta automática a cerrar un espacio de trabajo mediante un atajo del teclado,,auto close tab label
 tileseteditor_automaticaccepttilesize,Automatic response to room tile layer cropping due to tile size changes,Respuesta automática al recorte de capa de casillas de sala debido a los cambios en el tamaño de las casillas,,tile size causing tile layer crop confirmation description
-fonteditor_fontnotavailable,Font family '{0}' is not available. Verify that you have installed this font correctly.,La familia de fuentes "{0}" no está disponible. Verifique que ha instalado esta fuente correctamente.,,Font editor font not available
+fonteditor_fontnotavailable,Font family '{0}' is not available. Verify that you have installed this font correctly.,"La familia de fuentes ""{0}"" no está disponible. Verifique que ha instalado esta fuente correctamente.",,Font editor font not available
 fonteditor_fontnotavailable_title,Unavailable Font,Fuente no disponible.,,Title for unavailable font warning
 TextureAudioGroups_CyclicParent,A group cannot be a child of itself.,Un grupo no puede ser descendiente de sí mismo.,,Cyclic parent warning
 TextureAudioGroups_CyclicParent_Title,Invalid Parent,Matriz inválida,,Title for above warning
@@ -3989,8 +3988,8 @@ INVALID_FILEPATH_TITLE,Invalid Path,Ruta inválida,,Invalid File path title
 INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},La ruta del archivo es demasiado larga: {0},,File at x has a path which is too long to handle
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,El archivo incluido tiene un nombre inválido,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","Uno o más de los archivos incluidos tienen un nombre de archivo inválido, solo deberían contener a-z, A-Z, 0-9, _ o .\nEn el panel de salida hay una lista.",,Invalid included file name dialog box message
-INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',Archivo incluido con nombre de archivo inválido: "{0}",,Invalid Included file name output message
-Validate_InvalidFilename,"'{0}' contains invalid filename characters","'{0}' contains invalid filename characters",,Rename message
+INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',"Archivo incluido con nombre de archivo inválido: ""{0}""",,Invalid Included file name output message
+Validate_InvalidFilename,'{0}' contains invalid filename characters,'{0}' contains invalid filename characters,,Rename message
 roomeditor_selectioncolour,Selection frame colour,Selección de color del frame,,preference name for the selection frame colour for unlocked items in the room editor
 roomeditor_selectionlockedcolour,Locked selection frame colour,Selección de color del frame bloqueada,,preference name for the selection frame colour for locked items in the room editor
 roomeditor_propertiescolour,Properties frame colour,Propiedades de color del frame,,preference name for the properties frame colour for unlocked items in the room editor
@@ -4012,8 +4011,8 @@ ListBoxEnum_eOrigin_MiddleRight,Middle Right,Central derecho,,enum name
 ListBoxEnum_eOrigin_BottomLeft,Bottom Left,Inferior izquierdo,,enum name
 ListBoxEnum_eOrigin_BottomCentre,Bottom Centre,Inferior central,,enum name
 ListBoxEnum_eOrigin_BottomRight,Bottom Right,Inferior derecho,,enum name
-RoomItem_RestoreNameUpdated,Attempting to restore item '{0}' name is already in use and has been updated to '{1}',Intentando restaurar elemento "{0}" el nombre ya está en uso y se ha actualizado a "{1}",,console log message when restoring an item whose name has been taken by another instance
-Extraction_Error,ERROR: Unable to extract '{0}' at '{1}',ERROR: no se ha podido extraer "{0}" a "{1}",,Error message when gmz/yyz extraction fails
+RoomItem_RestoreNameUpdated,Attempting to restore item '{0}' name is already in use and has been updated to '{1}',"Intentando restaurar elemento ""{0}"" el nombre ya está en uso y se ha actualizado a ""{1}""",,console log message when restoring an item whose name has been taken by another instance
+Extraction_Error,ERROR: Unable to extract '{0}' at '{1}',"ERROR: no se ha podido extraer ""{0}"" a ""{1}""",,Error message when gmz/yyz extraction fails
 FontEditor_SampleText,Sample Text,Texto de ejemplo,,Font editor sample text
 PhysicsShapeEditor_ToggleGrid,Toggle grid on or off.,Activar o desactivar plantilla.,,Toggle grid tooltip
 PhysicsShapeEditor_PlayAnimation,Play or pause the sprite animation.,Reproduce o pausa la animación del sprite.,,Play or pause tooltip
@@ -4269,7 +4268,7 @@ ListBoxEnum_eSymbolType_eFunction,Function,Función,,Symbol type
 ListBoxEnum_eSymbolType_eScript,Script,Script,,Symbol type
 ListBoxEnum_eSymbolType_eResource,Resource,Recurso,,Symbol type
 ListBoxEnum_eSymbolType_eObsolete,Obsolete,Obsoleto,,Symbol type
-Sprite_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window.,El archivo "{0}" no es compatible. Vea la ventana de errores de compilación.,,Generate preview error message
+Sprite_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window.,"El archivo ""{0}"" no es compatible. Vea la ventana de errores de compilación.",,Generate preview error message
 serverportunavailable_title,Webserver Port Unavailable,Puerto del servidor web no disponible,,Webserver Port Unavailable title message
 Marketplace_MyLibrary_Empty,Your library is empty.,Su biblioteca está vacía.,,Empty library
 Marketplace_MyLibrary_ClickToBrowse,Click here to browse the marketplace.,Haga clic aquí para navegar por el mercado.,,Click to browse marketplace
@@ -4283,8 +4282,8 @@ defaultprojectdrawcolour_description,Initial default draw colour for new project
 macroeditor_title,IDE Environment Variables,Variables de entorno IDE,,MacroEditor title
 GMLVisualModule_LivePreview_Text,Preview (Read-Only),Vista previa (solo lectura),,GML Visual module live preview top comment text
 No_Resources_To_Add,No resources to add,Sin recursos a añadir,,Add from Default View status message
-FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Trial,El proyecto "{0}" no puede cargarse en la versión de prueba de GameMaker,,Error message when the user tries to load a project that exceeds free limits
-FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Trial for '{0}'.,Ha alcanzado los límites de la versión prueba de GameMaker para "{0}".,,Error message when the user tries to create more resources than the Trial version allows
+FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Trial,"El proyecto ""{0}"" no puede cargarse en la versión de prueba de GameMaker",,Error message when the user tries to load a project that exceeds free limits
+FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Trial for '{0}'.,"Ha alcanzado los límites de la versión prueba de GameMaker para ""{0}"".",,Error message when the user tries to create more resources than the Trial version allows
 FreeVersion_SpineNotSupported,Spine files are not supported in GameMaker Trial,Los archivos Spine no son compatibles con la versión de prueba de GameMaker,,Spine files are not supported in the Trial version of GameMaker error message
 FreeVersion_SWFNotSupported,SWF files are not supported in GameMaker Trial,Los archivos SWF no son compatibles con la versión de prueba de GameMaker,,SWF files are not supported in the Trial version of GameMaker error message
 FreeVersion_ImportNotSupported,Importing projects is not supported in GameMaker Trial,La versión de prueba de GameMaker Trial no permite importar proyectos,,Importing projects is not supported in the Trial version of GameMaker error message
@@ -4316,12 +4315,12 @@ desktop_ctrlmousewheelzoom,Mouse wheel zoom requires ${ctrl} key,El zoom con la 
 dpi_setting_change,DPI override changes requires a restart of the IDE. Do you want to restart now?,La anulación de cambios de DPI requiere reiniciar el IDE. ¿Quiere reiniciar ahora?,,Restart IDE after a DPI change
 dpi_override,Enable DPI override,Activar anulación de DPI,,DPI Override
 ggs_allow_game_statistics,Allow anonymous game statistics,Permitir estadísticas de juego anónimas,,Allow anonymous game statistics
-LicenceExcluded_ggs_allow_game_statistics,Statistics cannot be turned off on 'Creator' platforms,Las estadísticas no pueden desactivarse en las plataformas "Creador",Do not localise 'Creator' it's a product name,Trial stats tooltip on checkbox
+LicenceExcluded_ggs_allow_game_statistics,Statistics cannot be turned off on 'Creator' platforms,"Las estadísticas no pueden desactivarse en las plataformas ""Creador""",Do not localise 'Creator' it's a product name,Trial stats tooltip on checkbox
 LicenceFree_ggs_allow_game_statistics,Statistics cannot be turned off in GameMaker Trial,Las estadísticas no pueden desactivarse en la versión de prueba de GameMaker,,Trial stats tooltip on checkbox
 ggs_statistics_off,Are you sure you want to turn statistics off?\n\nAnonymous statistics allow us to provide developers with info about their target audience and focus development in key areas,¿Está seguro de que quiere desactivar las estadísticas?\n\nLas estadísticas anónimas nos permiten proporcionar a los desarrolladores información sobre su público objetivo y centrarse en los aspectos clave del desarrollo,,Message when turning off anonymous statistics
 ggs_statistics_choice,Automatic response to turning off anonymous statistics,Respuesta automática a la desactivación de las estadísticas anónimas,,Confirm dialog option
-ResourceTree_DataFileAlreadyExists,Included file '{0}' already exists.\nOperation cancelled.,El archivo incluido "{0}" ya existe.\nOperación cancelada.,,Warn the user that an included file already exists and therefore the operation has been cancelled
-RestoreResourceName_DirectoryFailure,Renaming failed: unable to restore directory '{0}' to its original name. Please see the output panel for more details.,Error al renombrar: no se puede restaurar el directorio "{0}" a su nombre original. Para más información consulte el panel de salida.,,Error message when attempting to restore a bad resource rename fails
+ResourceTree_DataFileAlreadyExists,Included file '{0}' already exists.\nOperation cancelled.,"El archivo incluido ""{0}"" ya existe.\nOperación cancelada.",,Warn the user that an included file already exists and therefore the operation has been cancelled
+RestoreResourceName_DirectoryFailure,Renaming failed: unable to restore directory '{0}' to its original name. Please see the output panel for more details.,"Error al renombrar: no se puede restaurar el directorio ""{0}"" a su nombre original. Para más información consulte el panel de salida.",,Error message when attempting to restore a bad resource rename fails
 RestoreResourceName_FilesFailure,Renaming failed: unable to restore files to their correct state. Please see the output panel for more details.,Error al renombrar: no se pueden restaurar los archivos a su estado correcto. Para más información consulte el panel de salida.,,Error message when attempting to restore a bad resource rename fails
 SaveFailures_Title,Save Project Failed,Error al guardar proyecto,,Save project failed dialog title
 SaveFailures_Message,Unable to save the following files (please see the output panel for more details).,No se han podido guardar los archivos siguientes (para más información consulte el panel de salida).,,Save project failed dialog message
@@ -4341,14 +4340,14 @@ PNG2Tileset_ColourLabel,Remove Colour,Eliminar color,,Colour to remove on import
 PNG2Tileset_ImageTooLarge,The selected image is too large to display,La imagen seleccionada es demasiado grande como para mostrarla,,Error message to display if the map is > max texture size
 platformdevice_detect_browsers,Detect Browsers,Detectar navegadores,,Button to auto-detect installed web browsers
 RoomEditor_GenerateTileMapFromImage,Convert Image to Tilemap,Convertir imagen a tilemap,,menu entry for taking an image and building a tileset/tilemap from it
-ResourceTree_SetRoomParent,Are you sure you want to set '{0}' as the room inheritance parent of '{1}'?,¿Está seguro de querer establecer a "{0}" como la sala que herede la matriz de "{1}"?,,message displayed when attempting to drag a room onto another in the resource tre
+ResourceTree_SetRoomParent,Are you sure you want to set '{0}' as the room inheritance parent of '{1}'?,"¿Está seguro de querer establecer a ""{0}"" como la sala que herede la matriz de ""{1}""?",,message displayed when attempting to drag a room onto another in the resource tre
 resourcetree_automaticsetparentroom,Automatic response to setting a room parent via node drag,Respuesta automática a establecer una sala matriz arrastrando un nodo,,the automatic response to dragging rooms to become child rooms in the resource tree
 resourcetree_automaticviewdeletion,Automatic response to deleting custom views,Respuesta automática a eliminar las vistas personalizadas,,the automatic response when deleting a custom view
 RoomEditor_InstanceLockToolTip,Lock Instance,Bloquear instancia,,tooltip for instance lock
 RoomEditor_GraphicLockToolTip,Lock Graphic,Bloquear gráfico,,tooltip for graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),Usando símbolos no encontrados en la fuente (?),,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,A esta fuente le faltan uno o más símbolos y obtendrá sustitutos de otras fuentes,,Tooltip
-Font_TooLargeTexPage,Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.,La fuente ""{0}"" contiene más caracteres de los que caben en la página de la textura. Algunos caracteres no serán visibles.,,Font too large for texture page warning dialog
+Font_TooLargeTexPage,"Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.","La fuente ""{0}"" contiene más caracteres de los que caben en la página de la textura. Algunos caracteres no serán visibles.",,Font too large for texture page warning dialog
 Event_Gesture,Gesture,Gesto,,Gesture event name
 Event_Gesture_Global,Global,Global,,Gesture event subtype
 Event_Gesture_Tap,Tap,Pulsación,,Tap gesture event name
@@ -4497,8 +4496,8 @@ RecentWindows_RemoveItem,Remove Item(s),Eliminar elemento(s),,Remove Items from 
 RecentWindows_ClearAll,Clear All Items,Borrar todos los elementos,,Clear All Items from the recent windows list
 RecentWindows_MoveToTop,Move to Top,Mover arriba,,Move the selected items to the top of the recent windows list
 RecentWindows_ShowByDefault,Open automatically on project load,Abrir automáticamente al cargar proyecto,,Show the Recent Windows list by default on project load
-Project_Error_Invalid_Shaders,The shader '{0}' has an invalid type.,El shader "{0}" tiene una clase inválida.,,Invalid shader error message
-AVDVersion_Error,Cannot run AVD directly with version '{0}' of the Android SDK.\nPlease launch 'Android Studio' and select 'Tools > Android > AVD Manager'.,No se puede ejecutar AVD directamente con la versión "{0}" del Android SDK.\nEjecute "Android Studio" y seleccione "Herramientas > Android -> Gestor AVD".,,error message for later versions of Android Studio
+Project_Error_Invalid_Shaders,The shader '{0}' has an invalid type.,"El shader ""{0}"" tiene una clase inválida.",,Invalid shader error message
+AVDVersion_Error,Cannot run AVD directly with version '{0}' of the Android SDK.\nPlease launch 'Android Studio' and select 'Tools > Android > AVD Manager'.,"No se puede ejecutar AVD directamente con la versión ""{0}"" del Android SDK.\nEjecute ""Android Studio"" y seleccione ""Herramientas > Android -> Gestor AVD"".",,error message for later versions of Android Studio
 ggs_windowsuap_enable_xbox_live,Enable Xbox Live,Activar Xbox Live,,Enable Xbox Live
 ggs_windowsuap_xbox_live_creators_program,Creators Program App,App del programa de creadores,,Specifies that this is a Creators Program app
 ggs_windowsuap_xbox_live_title_id,Title ID,ID del título,,The Title ID of the app
@@ -4506,7 +4505,7 @@ ggs_windowsuap_xbox_live_scid,Service Configuration ID,ID de configuración de s
 Proxy_Settings,Proxy Settings,Ajustes de proxy,,Proxy settings window title
 Proxy_Address,Proxy,Proxy,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),Dirección y puerto del proxy (http://dirección:puerto),,proxy address tooltip
-Proxy_Address_Error,Error proxy must using "http://address:port" format,El proxy de error debe usar el formato "http://address:port",,proxy format error message
+Proxy_Address_Error,"Error proxy must using ""http://address:port"" format","El proxy de error debe usar el formato ""http://address:port""",,proxy format error message
 Proxy_Error_Title,Error: Invalid proxy setting,Error: ajustes de proxy inválidos,,proxy error window title
 Proxy_Username,Username,Nombre de usuario,,proxy username label
 Proxy_Username_Tooltip,Proxy username,Nombre de usuario del proxy,,proxy username tooltip
@@ -4615,7 +4614,7 @@ Pref_Visual_Studio_Path,Visual Studio Path,Ruta de Visual Studio,,Visual Studio 
 ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)","Compartir superposición (128x128, 64x64, 256x128, 256x64)",,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,Vista previa,,Preview button caption
 Main,Main,Principal,,Main option group subheading
-Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',"d" Días "h" Horas "m" Minutos "s" Segundos,,time format to display in run timer
+Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d' Días 'h' Horas 'm' Minutos 's' Segundos',,time format to display in run timer
 Device_Manager_Platform,Platform,Plataforma,,Platform selector title for device manager
 Server,Server,Servidor,,Server preference group subheading
 Console,Console,Consola,,Console preference group subheading
@@ -4716,8 +4715,8 @@ SyntaxError_UnexpectedBinaryOp,unexpected binary operator {0},operador binario i
 SyntaxError_UnterminatedString,unterminated string literal,cadena literal inacabada,,syntax error
 SyntaxError_SingleQuotes,single quotes no longer allowed for string,la cadena ya no permite comillas,,syntax error
 SyntaxError_Unexpected,unexpected syntax error,error de sintaxis inesperado,,syntax error
-SyntaxError_InvalidArgs,Got '{0}' ({1}) expected '{2}',Se obtuvo "{0}" ({1}) se esperaba "{2}",,syntax error
-SyntaxError_InvalidArgsOption,Got '{0}' ({1}) expected '{2}' or '{3}',Se obtuvo "{0}" ({1}) se esperaba "{2}" o "{3}",,syntax error
+SyntaxError_InvalidArgs,Got '{0}' ({1}) expected '{2}',"Se obtuvo ""{0}"" ({1}) se esperaba ""{2}""",,syntax error
+SyntaxError_InvalidArgsOption,Got '{0}' ({1}) expected '{2}' or '{3}',"Se obtuvo ""{0}"" ({1}) se esperaba ""{2}"" o ""{3}""",,syntax error
 SyntaxError_ExpectedExp,expected expression,expresión esperada,,syntax error
 SyntaxError_NestedCalls,nested function calls are not allowed,no se permiten las llamadas a funciones anidadas,,syntax error
 SyntaxError_TrialLimit,use of {0} is not allowed in GameMaker Trial,La versión de prueba de GameMaker Trial no permite el uso de {0},,syntax error
@@ -4763,17 +4762,17 @@ ConversionLog_ResourceNameInUse,"Resource name collision '{0}' already exists, r
 ConversionLog_FontRegenerated,Font texture has been regenerated - inconsistencies may occur,"La textura de la fuente ha sido regenerada, podría haber incoherencias",,conversion log
 ConversionLog_FontStyleMissing,!!! Font {0} font family {1} is installed but couldn't match style - Font has NOT been regenerated,!!! La fuente {0} de la familia de fuente {1} se ha instalado pero no se puede hacer coincidir el estilo - La fuente NO se ha regenerado,,conversion log
 ConversionLog_FontMissing,!!! Font {0} uses a font ({1}) not installed on this system - Font has NOT been regenerated,!!! La fuente {0} usa una fuente ({1}) no instalada en este sistema - La fuente NO se ha regenerado,,conversion log
-ConversionLog_UnknownShader,Unknown Shader Type '{0}' for shader '{1}',Tipo de shader desconocido "{0}" para el shader "{1}",,conversion log
+ConversionLog_UnknownShader,Unknown Shader Type '{0}' for shader '{1}',"Tipo de shader desconocido ""{0}"" para el shader ""{1}""",,conversion log
 ConversionLog_MacIcon,macOS icon {0} written out as 32-bit,El icono macOS {0} se ha escrito como de 32-bit,,conversion log
-ConversionLog_ExtensionError,"Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type",Error - la función "{0}" en la extensión "{1}" tiene más de 4 argumentos y no todos son del mismo tipo,,conversion log
+ConversionLog_ExtensionError,"Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type","Error - la función ""{0}"" en la extensión ""{1}"" tiene más de 4 argumentos y no todos son del mismo tipo",,conversion log
 ConversionLog_ConvertingScript,Converting GML script: {0},Convirtiendo script GML: {0},,conversion log
 ConversionLog_DefaultInstaller,Windows NSIS Installer Script has been set to default due to changes in GameMaker,El script del instalador de Windows NSIS se ha pasado a predeterminado debido a cambios en GameMaker,,conversion log
 ConversionLog_ConversionException,Exception while converting {0} : {1},Excepción mientras se convertía {0} : {1},,conversion log
 ConversionLog_ConvertingOriginal,Original was,El original era,,conversion log
 ConversionLog_ConvertingResult,Current result was,El resultado actual era,,conversion log
-ConversionLog_MissingAudioGroup,Missing audiogroup for sound: '{0}' - setting to default audio group,Falta el grupo de audio para el sonido: "{0}" - pasando el grupo de audio a predeterminado,,conversion log
-ConversionLog_CompatibilityScript,Added compatibility script '{0}',Añadido el script de compatibilidad "{0}",,conversion log
-ConversionLog_UpdatedCompatibilityScript,Updated compatibility script '{0}',Actualizado el script de compatibilidad "{0}",,conversion log
+ConversionLog_MissingAudioGroup,Missing audiogroup for sound: '{0}' - setting to default audio group,"Falta el grupo de audio para el sonido: ""{0}"" - pasando el grupo de audio a predeterminado",,conversion log
+ConversionLog_CompatibilityScript,Added compatibility script '{0}',"Añadido el script de compatibilidad ""{0}""",,conversion log
+ConversionLog_UpdatedCompatibilityScript,Updated compatibility script '{0}',"Actualizado el script de compatibilidad ""{0}""",,conversion log
 ConversionLog_GameSpeed,Game speed set to {0},Velocidad del juego fijada en {0},,conversion log
 ConversionLog_ParseError,ERROR: {0} - {1}: {2},ERROR: {0} - {1}: {2},,conversion log (0 - filename/1 - line number/2 - error message)
 ConversionLog_TooManyErrors,Too many errors - GML not processed : {0},Demasiados errores - GML no procesado : {0},,conversion log
@@ -4850,7 +4849,7 @@ RoomEditor_InheritBackgroundToolTip,Inherit Background Properties,Heredar propie
 RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,Heredar propiedades de casilla,,tooltip for inherit tile layer properties
 RoomEditor_InheritPathToolTip,Inherit Path Properties,Heredar propiedades de ruta,,tooltip for inherit path properties
 RoomEditor_InheritLayersToolTip,Inherit Layers,Heredar capas,,tooltip for inherit layers
-Error_InvalidProjectName,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,El nombre de proyecto "{0}" contiene los siguientes caracteres no compatibles: "{1}".\nIntente usar un nombre distinto.,,Error that the user has chosen a project name that won't work on Windows
+Error_InvalidProjectName,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,"El nombre de proyecto ""{0}"" contiene los siguientes caracteres no compatibles: ""{1}"".\nIntente usar un nombre distinto.",,Error that the user has chosen a project name that won't work on Windows
 Addon_AmazonFireFailedPlatformCheckMessage,This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?,Este addon necesita las licencias de Amazon Fire o Mobile. ¿Quiere ir a su cuenta para comprobar su disponibilidad de las mismas?,,Message to display when the Amazon Fire addon fails the platform check
 RuntimeTarget_Error,Error with Runtime,Error con el tiempo de ejecución,,Error about the current active Runtime
 RuntimeTarget_LowerThanBaseline,The current runtime ({0}) is lower than the baseline required ({1}).\nPlease update your runtime to {1} or higher.,El tiempo de ejecución actual ({0}) es menor que el que requiere la base ({1}).\nActualice su tiempo de ejecución a {1} o superior.,,Message to tell user to update their runtime
@@ -5157,8 +5156,8 @@ ggs_top_shelf_wide_2x,Top Shelf Image Wide 2x,Imagen del estante superior ancho 
 ggs_icon_400_2x,400x240 Icon 2x,Icono 400x240 2x,,400x240 Icon 2x
 ggs_splash_screen_2x,Splash Screen Image 2x,Imagen de la pantalla inicial 2x,,Splash Screen Image 2x
 ggs_xboxone_stats_system,Stats configuration system,Sistema de configuración de estadísticas,,Stats configuration system
-ggs_xboxone_stats_2017,Title-Managed Stats ("Stats 2017"),Estadísticas gestionadas por título ("Stats 2017"),,the radio group option for 2017 stats
-ggs_xboxone_stats_2013,Event-Based Stats ("Stats 2013"),Estadísticas gestionadas por evento ("Stats 2013"),,the radio group option for 2013 stats
+ggs_xboxone_stats_2017,"Title-Managed Stats (""Stats 2017"")","Estadísticas gestionadas por título (""Stats 2017"")",,the radio group option for 2017 stats
+ggs_xboxone_stats_2013,"Event-Based Stats (""Stats 2013"")","Estadísticas gestionadas por evento (""Stats 2013"")",,the radio group option for 2013 stats
 ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,El sistema 2013 ha sido declarado obsoleto por Microsoft y solo debería usarse para títulos ya en desarrollo \nEl sistema 2017 ya no necesita un servicio manifiesto \nPara más información lea la documentación de Microsoft,,tooltip for the stats sytem radio group
 $win_LaptopRHSKeys,Right Control and Right Alt,Ctrl derecho y Alt derecho,,Windows version of laptop mode keys
 $mac_LaptopRHSKeys,Right Command and Right Alt,Comando y Alt derecho,,Mac version of laptop mode keys
@@ -5514,7 +5513,7 @@ ggs_ipad_landscape_1024_748,iPad iOS 5/6 landscape without status,iPad iOS 5/6 h
 ggs_ipad_portrait_768_1004,iPad iOS 5/6 portrait without status,iPad iOS 5/6 vertical sin estado,,iPad iOS 5/6 portrait without status
 ggs_ipad_landscape_2048_1496,iPad iOS 5/6 2x landscape without status,iPad iOS 5/6 x2  horizontal sin estado,,iPad iOS 5/6 2x landscape without status
 ggs_ipad_portrait_1536_2008,iPad iOS 5/6 2x portrait without status,iPad iOS 5/6  x2 vertical sin estado,,iPad iOS 5/6 2x portrait without status
-exception_faq_button_caption,"To see what data this report contains, <a href="https://help.yoyogames.com/hc/en-us/articles/360028120992">click here</a>","To see what data this report contains, <a href="https://help.yoyogames.com/hc/en-us/articles/360028120992">click here</a>",,exception faq button caption
+exception_faq_button_caption,"To see what data this report contains, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>","To see what data this report contains, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>",,exception faq button caption
 exception_fatal_error_header_caption,A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.,Se ha producido un error en GameMaker y el programa debe cerrarse.\n\nSentimos los inconvenientes.,,exception fatal error header caption
 exception_problem_header_caption,Please tell us about this problem.,"Por favor, infórmanos sobre este error.",,exception problem header caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.","Se ha creado un informe de error para que se puedan investigar y prevenir errores como este. Agradeceríamos que nos proporcionaras más detalles sobre el contexto en el que se ha producido este suceso. Nos interesa especialmente en lo que estabas trabajando justo antes de que se produjera.\nImportante\nAl pulsar Enviar, nos das tu consentimiento para que procesemos los datos que se detallan a continuación de acuerdo con nuestra Política de Privacidad.",,exception blurb
@@ -5523,7 +5522,7 @@ exception_dont_send_caption,Don't Send,No enviar,,exception dont send button cap
 exception_privacy_policy_caption,Privacy Policy,Política de privacidad,,exception privacy policy
 exception_upload_caption,Upload Status,Estado de la carga,,exception form confirmation box caption
 exception_upload_confirmation,Upload Successful.,Carga completada.,,exception form confirmation box message
-exception_legal_blurb,"Our <a href="https://www.yoyogames.com/legal/privacy">Privacy Policy</a> and <a href="https://www.yoyogames.com/legal/cookies">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>\n\nForm version: ","Our <a href="https://www.yoyogames.com/legal/privacy">Privacy Policy</a> and <a href="https://www.yoyogames.com/legal/cookies">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>\n\nForm version: ",,exception legal blurb
+exception_legal_blurb,"Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nForm version: ","Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nForm version: ",,exception legal blurb
 GameOptions_Extensions,Extensions,Extensiones,,Extensions node label
 ggs_enable_apple_sign_in,Enable Sign In with Apple,Activar inicio de sesión con Apple,,Enable Sign In with Apple
 ggs_android_application_tag_inject,Inject to Android Application Tag,Inyectar a Android Application Tag,,Inject to Android Application Tag
@@ -5856,7 +5855,7 @@ Particle Systems,Particle Systems,Sistemas de partículas,,Particle Systems pref
 Static Variables,Static Variables,Variables estáticas,,Static Variables preference group subheading
 SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,solo las funciones declaradas como constructoras pueden utilizar la herencia.,,syntax error
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},atributo de función desconocido {0},,syntax error
-SyntaxError_InheritedFunctionArguments,Inherited argument "{0}" is not in function arguments,El argumento heredado "{0}" no está en los argumentos de función,,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","El argumento heredado ""{0}"" no está en los argumentos de función",,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,solo se admiten 16 argumentos con nombre en una declaración de función,,syntax error
 FileFilter_AndroidCreateExeMessage,Save as .aab or .apk,Guardar como. .aab o .apk,,Save as .aab or .apk
 ggs_ios_launchscreen,Launch Screen,Iniciar pantalla,,Launch Screen
@@ -6377,8 +6376,8 @@ Category_BasicInfo,Basic Information,Información básica,,inspector category la
 Category_SoundInfo,Sound Information,Información de sonido,,inspector category label
 Category_InstanceInfo,Instance Information,Información de instancias,,inspector category label
 Category_SequenceInfo,Sequence Information,Información de secuencias,,inspector category label
-GMScript_DnDBoilerPlate,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML Boiler plate for a new script
-GMScript_DnDFuncDecl,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML function declaration template
+GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
+GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
 AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,¿Desea crear {0} activos?,,label to warn user they are about to create a lot of resources
 AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,Creando lotes de activos,,title for warning dialog box
 YoYoImage_UnknownFileFormat,Image format not recognised,Formato de imagen no reconocido,,This image format was not recognised
@@ -6597,7 +6596,7 @@ ACL_elastic,Elastic,Elástico,,anim curve library curve name
 ACL_bounce,Bounce,Rebote,,anim curve library curve name
 ACL_fastOutSlowIn,Fast To Slow,De rápido a lento,,anim curve library curve name
 ACL_slowMiddle,Mid Slow,Medio lento,,anim curve library curve name
-ACL_ResetTip,Select "Reset" to revert curve to initial state.,Selecciona "Restablecer" para revertir la curva al estado inicial.,,anim curve library reset tip
+ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.","Selecciona ""Restablecer"" para revertir la curva al estado inicial.",,anim curve library reset tip
 LocalisedManual_DownloadMsg,"The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?",El manual para el idioma actual del manual ({0}) no está instalado. ¿Desea descargarlo ahora o utilizar la ayuda en línea?,,manual download message
 Manual_Download,Download,Descargar,,manual download button text
 Manual_UseOnline,Use online manual,Utilizar manual en línea,,manual use online text
@@ -6919,7 +6918,7 @@ SoundEditor_OggLabel,Conversion (for OGG only):,Conversión (solo para OGG):,,Og
 SourceControlConflictsDetectedOnLoad,"There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?","Hay conflictos en este proyecto. Si continúas cargando, puede estropearse. Se recomienda resolver los conflictos de git antes. ¿Seguro que quieres seguir cargando?",,Conflicts Detected message on opening a project
 TextureGroups_CompressBZ2,BZ2 Compress,Compresión BZ2,,Texture group compression checkbox label
 UserLogin_OperaAccount,Opera Account,Cuenta de Opera,,opera account
-UserLogin_OperaLoginInfo,"Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked","Utiliza tu cuenta de Opera para acceder a las cuentas de YoYo.\nAmbas cuentas deben estar vinculadas.",,opera login info text
+UserLogin_OperaLoginInfo,Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked,Utiliza tu cuenta de Opera para acceder a las cuentas de YoYo.\nAmbas cuentas deben estar vinculadas.,,opera login info text
 UserLogin_LinkAccountsAt,Link your accounts at,Vincula tus cuentas en,,link accounts info label
 UserLogin_OperaSSO,Opera Single Sign-In,Inicio de sesión único de Opera,,single sign in button label
 UserLogin_ForgottenPassword,Forgotten password?,¿No recuerdas la contraseña?,,login forgotten password label
@@ -6948,7 +6947,7 @@ ggs_template_desc,Description,Descripción,,project template description
 mytemplateprojectslocation,Template Projects directory,Directorio de proyectos de plantilla,,user Template Projects location setting
 pref_laptop_mode,Force Laptop mode,Forzar el modo portátil,,Preference to force the laptop mode on or off
 ggs_game_guid_change_confirmation,Are you sure to change the GUID?,¿Seguro que quieres cambiar el GUID?,,Confirmation of changing the game GUID
-Project_Changes_OnRepairing,"The project files were corrupted. The changes were applied. Do you want to save the changes?","Los archivos del proyecto estaban dañados. Se han aplicado los cambios. ¿Quieres guardar los cambios?",,Project was corrupted and changed by the IDE to fix it
+Project_Changes_OnRepairing,The project files were corrupted. The changes were applied. Do you want to save the changes?,Los archivos del proyecto estaban dañados. Se han aplicado los cambios. ¿Quieres guardar los cambios?,,Project was corrupted and changed by the IDE to fix it
 operagx_synchronized,Synchronizing with Opera GX...,Sincronización con Opera GX...,,Output Message on starting synchronizing with OperaGX
 operagx_failed_to_refresh_token,failed to refresh token... logout of GameMaker and login again,No se ha podido actualizar el token... cierra la sesión de GameMaker y vuelve a iniciar sesión,,Output Message tracking Packaging for OperaGX process
 operagx_out_compilationbeforeupload_failed,Compilation failed. GXC upload cancelled. See the console output and the compile errors.,Error de compilación. Carga de GXC cancelada. Consulta la salida de la consola y los errores de compilación.,,"Output Message to show then the compilation failed in the ""OperaGX Packaging"" window"
@@ -6984,10 +6983,10 @@ StartScreen_TourTitle_4,"""Tutorials""","""Tutoriales""",,start screen tour labe
 StartScreen_TourTitle_5,"""Recent Projects""","""Proyectos recientes""",,start screen tour label
 StartScreen_SkipTourWiz,SKIP to Setup Wizard,SALTAR al Asistente de Configuración,,start screen tour label
 StartScreen_SkipTour,SKIP Tour,SALTAR el tour,,start screen skip tour label
-StartScreen_TourDesc_1,"Start from scratch with a new empty project or start from a template; one we've included or one of your own","Comenzar desde cero con un nuevo proyecto vacío o comenzar a partir de una plantilla; una que hayamos incluido o una propia",,start screen tour label
-StartScreen_TourDesc_2,"Open a project you've already started and continue from when your last saved","Abrir un proyecto ya iniciado y continuar desde la última vez que se guardó",,start screen tour label
-StartScreen_TourDesc_3,"Import a project that has previously been exported or is from a legacy version of GameMaker","Importar un proyecto previamente exportado o de una versión anterior de GameMaker",,start screen tour label
-StartScreen_TourDesc_4,"Browse all of the available tutorials through your web browser","Consulta todos los tutoriales disponibles a través de tu navegador web",,start screen tour label
+StartScreen_TourDesc_1,Start from scratch with a new empty project or start from a template; one we've included or one of your own,Comenzar desde cero con un nuevo proyecto vacío o comenzar a partir de una plantilla; una que hayamos incluido o una propia,,start screen tour label
+StartScreen_TourDesc_2,Open a project you've already started and continue from when your last saved,Abrir un proyecto ya iniciado y continuar desde la última vez que se guardó,,start screen tour label
+StartScreen_TourDesc_3,Import a project that has previously been exported or is from a legacy version of GameMaker,Importar un proyecto previamente exportado o de una versión anterior de GameMaker,,start screen tour label
+StartScreen_TourDesc_4,Browse all of the available tutorials through your web browser,Consulta todos los tutoriales disponibles a través de tu navegador web,,start screen tour label
 StartScreen_TourDesc_5,"An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently","Área que mostrará todos los proyectos que hayas abierto recientemente, puede ser más fácil seleccionar tu proyecto desde aquí en lugar de usar el botón ""Abrir"" de arriba, si vas a reabrir un proyecto en el que estabas trabajando recientemente",,start screen tour label
 StartScreen_ChooseTemplate,CHOOSE YOUR TEMPLATE,ELIGE TU PLANTILLA,,start screen label
 StartScreen_SelectTemplate,Please select a project template,Selecciona una plantilla de proyecto,,start screen label
@@ -7168,15 +7167,15 @@ runtime_dns_DnsTestHasFailed,DNS test has failed,La prueba de DNS ha fallado,,A 
 runtime_dns_DnsTestHasFailedMessage,DNS resolving test has failed with the current settings. Alternative DNS has been disabled,La prueba de resolución de DNS ha fallado con la configuración actual. Se ha desactivado el DNS alternativo,,A warning which is shown after failing the DNS test
 runtime_dns_ResolvingFailed,DNS resolving has failed,La resolución de DNS ha fallado,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
 runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,No se ha podido resolver {0} con un DNS alternativo. Se ha utilizado un sistema DNS,,Could not use an alternative DNS
-runtime_empty_dns_warning,"No DNS IP specified - the runtime feeds will be resolved against a system DNS","No se especifica la IP del DNS - las fuentes en tiempo de ejecución se resolverán contra un DNS del sistema",,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
+runtime_empty_dns_warning,No DNS IP specified - the runtime feeds will be resolved against a system DNS,No se especifica la IP del DNS - las fuentes en tiempo de ejecución se resolverán contra un DNS del sistema,,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
 ProgressBar_DnsTest,Testing DNS...,Probando el DNS...,,A title of the progress bar
 GoTo_Pref_RedefineKeys,Search in Redefine Keys,Buscar en Redefinir teclas,,search redfine keys pref
-SS_Wizard_StepDesc_3BlankA,"You've selected 'New Blank' template.","Has seleccionado la plantilla ’Nuevo espacio en blanco’.",,setup wizard label
+SS_Wizard_StepDesc_3BlankA,You've selected 'New Blank' template.,Has seleccionado la plantilla ’Nuevo espacio en blanco’.,,setup wizard label
 SS_NewDescHeader,Description:,Descripción:,,start screen new project description
 SS_NewDesc,Create an empty GameMaker project. Build your game up from a blank canvas.,Cree un proyecto de GameMaker vacío. Construya su juego a partir de un lienzo en blanco.,,start screen new project description
 SS_NewInfoHeader,Other Info:,Otra información:,,start screen new project description
 SS_NewInfo,Set your scripting preference in Game Options/Preferences.,Establezca su preferencia de scripting en Opciones de Juego/Preferencias.,,start screen new project description
-Validate_InvalidPathTooLong,"Path is too long: '{0}'.","La ruta es demasiado larga: '{0}'.",,Rename message
+Validate_InvalidPathTooLong,Path is too long: '{0}'.,La ruta es demasiado larga: '{0}'.,,Rename message
 Visual Editor,Visual Editor,Editor visual,,Visual Editor preference group subheading
 GMLVisual,GML Visual,GML Visual,,GML Visual preference group subheading
 FileFilter_TemplateProject,GameMaker Project Template,Plantilla de proyecto de GameMaker,,template project filter
@@ -7186,91 +7185,91 @@ ScriptType_SelectLang_Info,Note: This can be changed at any time,Nota: Esto se p
 ScriptType_Code,GML CODE,CÓDIGO GML,,code scripting type
 ScriptType_Visual,GML VISUAL,GML VISUAL,,visual scripting type
 ScriptType_CodeDesc,"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.","Programe su juego con la sencilla sintaxis de codificación de GML y las potentes características del lenguaje orientado a objetos, apto para usuarios que están aprendiendo a codificar y para programadores avanzados con conocimientos de los lenguajes estándar del sector.",,code script type description
-ScriptType_VisualDesc,"Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.","Programe visualmente su juego mediante acciones. Aprenda a codificar mediante bloques visuales. Previsualice el código de sus acciones y conviértalo en código en cualquier momento.",,visual script type description
+ScriptType_VisualDesc,Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.,Programe visualmente su juego mediante acciones. Aprenda a codificar mediante bloques visuales. Previsualice el código de sus acciones y conviértalo en código en cualquier momento.,,visual script type description
 ScriptType_DontAskProject,Don't ask again for this project,No vuelva a preguntar por este proyecto,,dont ask again this project
 ScriptType_DontAskEver,Don't ask again ever,No vuelva a preguntar nunca más,,dont ask again all projects
 ListBoxEnum_eDefaultScriptType_None,Always Ask,Pregunte siempre,,default script type none
 ListBoxEnum_eDefaultScriptType_GML,GML Code,Código GML,,default script type gml
 ListBoxEnum_eDefaultScriptType_GMLVisual,GML Visual,GML Visual,,default script type GML Visual
 default_script_pref,Default scripting language,Lenguaje de scripting predeterminado,,default scripting language preference
-GMStdCatTime,"Time","Hora",,GML Visual library category name
-GMStdTimeSource,"Time Source","Origen de tiempo",,GML Visual library argument label
-GMStdParent,"Parent","Padre",,GML Visual library argument label
-GMStdPeriod,"Period","Periodo",,GML Visual library argument label
-GMStdUnits,"Units","Unidades",,GML Visual library argument label
-GMStdCallback,"Callback","Llamada de retorno",,GML Visual library argument label
-GMStdReps,"Repetitions","Repeticiones",,GML Visual library argument label
-GMStdExpiryType,"Expiry Type","Tipo de caducidad",,GML Visual library argument label
-GMStdVar_time_source_global,"Global Time Source","Origen de tiempo global",,GML Visual argument value
-GMStdVar_time_source_game,"Game Time Source","Origen de tiempo de juego",,GML Visual argument value
-GMStdVar_time_source_units_seconds,"Seconds","Segundos",,GML Visual argument value
-GMStdVar_time_source_units_frames,"Frames","Cuadros",,GML Visual argument value
-GMStdVar_time_source_expire_nearest,"Nearest","Más cerca",,GML Visual argument value
-GMStdVar_time_source_expire_after,"After","Después de",,GML Visual argument value
-GMStdVar_time_source_state_initial,"Initial","Inicial",,GML Visual argument value
-GMStdVar_time_source_state_active,"Active","Activo",,GML Visual argument value
-GMStdVar_time_source_state_paused,"Paused","Pausado",,GML Visual argument value
-GMStdVar_time_source_state_stopped,"Stopped","Detenido",,GML Visual argument value
-GMStdTimeSourceCreate_Name,"Create Time Source","Crear origen de tiempo",,GML Visual action name
-GMStdTimeSourceCreate_Desc,"Create a time source.","Crear un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","Crear un origen de tiempo y asignarlo a ${idx}",,GML Visual story text
-GMStdTimeSourceDestroy_Name,"Destroy Time Source","Destruir origen de tiempo",,GML Visual action name
-GMStdTimeSourceDestroy_Desc,"Destroy a time source.","Destruir un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceStart_Name,"Start Time Source","Iniciar origen de tiempo",,GML Visual action name
-GMStdTimeSourceStart_Desc,"Start a time source.","Iniciar un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceStart_Story,"Start time source ${idx}","Iniciar origen de tiempo ${idx}",,GML Visual story text
-GMStdTimeSourceStop_Name,"Stop Time Source","Detener origen de tiempo",,GML Visual action name
-GMStdTimeSourceStop_Desc,"Stop a time source.","Detener un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceStop_Story,"Stop time source ${idx}","Detener origen de tiempo ${idx}",,GML Visual story text
-GMStdTimeSourcePause_Name,"Pause Time Source","Pausar origen de tiempo",,GML Visual action name
-GMStdTimeSourcePause_Desc,"Pause a time source.","Pausar un origen de tiempo.",,GML Visual action description
-GMStdTimeSourcePause_Story,"Pause time source ${idx}","Pausar origen de tiempo ${idx}",,GML Visual story text
-GMStdTimeSourceReset_Name,"Reset Time Source","Restablecer origen de tiempo",,GML Visual action name
-GMStdTimeSourceReset_Desc,"Reset a time source.","Restablecer un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceReset_Story,"Reset time source ${idx}","Restablecer origen de tiempo ${idx}",,GML Visual story text
-GMStdTimeSourceReconfigure_Name,"Reconfigure Time Source","Reconfigurar origen de tiempo",,GML Visual action name
-GMStdTimeSourceReconfigure_Desc,"Reset and reconfigure a time source.","Restablecer y reconfigurar un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceReconfigure_Story,"Reset and reconfigure time source ${idx}","Restablecer y reconfigurar origen de tiempo ${idx}",,GML Visual story text
-GMStdTimeSourceGetPeriod_Name,"Get Period","Obtener período",,GML Visual action name
-GMStdTimeSourceGetPeriod_Desc,"Get the period of a time source.","Obtiene el periodo de un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetPeriod_Story,"Get the period of time source ${idx} and assign it to ${var}","Obtener el período de origen de tiempo ${idx} y asignarlo a ${var}",,GML Visual story text
-GMStdTimeSourceGetRepsCompleted_Name,"Get Reps Completed","Obtener Reps completado",,GML Visual action name
-GMStdTimeSourceGetRepsCompleted_Desc,"Get the number of repetitions a time source has completed.","Obtener el número de repeticiones que ha completado un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetRepsCompleted_Story,"Get the number of completed repetitions of time source ${idx} and assign it to ${var}","Obtener el número de repeticiones completadas del origen de tiempo ${idx} y asignarlo a ${var}",,GML Visual story text
-GMStdTimeSourceGetRepsRemaining_Name,"Get Reps Remaining","Obtener las repeticiones restantes",,GML Visual action name
-GMStdTimeSourceGetRepsRemaining_Desc,"Get the number of repetitions a time source has remaining.","Obtener el número de repeticiones que le quedan a un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetRepsRemaining_Story,"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}","Obtener el número de repeticiones restantes del origen de tiempo ${idx} y asignarlo a ${var}",,GML Visual story text
-GMStdTimeSourceGetUnits_Name,"Get Units","Obtener unidades",,GML Visual action name
-GMStdTimeSourceGetUnits_Desc,"Get the units of a time source.","Obtener las unidades de un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetUnits_Story,"Get the units of time source ${idx} and assign it to ${var}","Obtener las unidades de un origen de tiempo ${idx} y asignarlas a ${var}",,GML Visual story text
-GMStdTimeSourceGetTimeRemaining_Name,"Get Time Remaining","Obtener el tiempo restante",,GML Visual action name
-GMStdTimeSourceGetTimeRemaining_Desc,"Get the time remaining on a time source.","Obtener el tiempo restante de un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetTimeRemaining_Story,"Get the time remaining on time source ${idx} and assign it to ${var}","Obtener el tiempo restante en el origen de tiempo ${idx} y asignarlo a ${var}",,GML Visual story text
-GMStdTimeSourceGetState_Name,"Get State","Obtener el estado",,GML Visual action name
-GMStdTimeSourceGetState_Desc,"Get the current state of a time source.","Obtener el estado actual de un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetState_Story,"Get the current state of time source ${idx} and assign it to ${var}","Obtener el estado actual del origen de tiempo ${idx} y asignarlo a ${var}",,GML Visual story text
-GMStdTimeSourceGetParent_Name,"Get Parent","Obtener el padre",,GML Visual action name
-GMStdTimeSourceGetParent_Desc,"Get the parent of a time source.","Obtener el padre de un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetParent_Story,"Get the parent of time source ${idx} and assign it to ${var}","Obtener el padre de un origen de tiempo ${idx} y asignarlo a ${var}",,GML Visual story text
-GMStdTimeSourceGetChildren_Name,"Get Children","Obtener hijos",,GML Visual action name
-GMStdTimeSourceGetChildren_Desc,"Get the children of a time source.","Obtener el hijo de un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceGetChildren_Story,"Get the children of time source ${idx} and assign it to ${var}","Obtener el hijo de un origen de tiempo ${idx} y asignarlo a ${var}",,GML Visual story text
-GMStdTimeSourceExists_Name,"If Time Source Exists","Si existe un origen de tiempo",,GML Visual action name
-GMStdTimeSourceExists_Desc,"Check if a time source exists.","Comprobar si existe un origen de tiempo.",,GML Visual action description
-GMStdTimeSourceExists_Story_1,"If time source ${idx} exists","Si el origen de tiempo ${idx} existe",,GML Visual story text
-GMStdTimeSourceExists_Story_2,"If time source ${idx} does not exist","Si el origen de tiempo ${idx} no existe",,GML Visual story text
-GMStdIfTimeSourceState_Name,"If State","Si Estado",,GML Visual action name
-GMStdIfTimeSourceState_Desc,"Check if a time source's state satisfies a condition.","Comprueba si el estado de un origen de tiempo satisface una condición.",,GML Visual action description
-GMStdIfTimeSourceState_Story_1,"If the state of time source ${idx} is ${state}","Si el estado de un origen de tiempo ${idx} es ${state}",,GML Visual story text
-GMStdIfTimeSourceState_Story_2,"If the state of time source ${idx} is not ${state}","Si el estado de un origen de tiempo ${idx} no es ${state}",,GML Visual story text
-GMStdIfTimeSourceUnits_Name,"If Units","Si Unidades",,GML Visual action name
-GMStdIfTimeSourceUnits_Desc,"Check if a time source's units satisfies a condition.","Comprobar si las unidades de un origen de tiempo satisfacen una condición.",,GML Visual action description
-GMStdIfTimeSourceUnits_Story_1,"If the units of time source ${idx} are ${units}","Si las unidades de un origen de tiempo ${idx} son ${units}",,GML Visual story text
-GMStdIfTimeSourceUnits_Story_2,"If the units of time source ${idx} are not ${units}","Si las unidades de un origen de tiempo ${idx} no son ${units}",,GML Visual story text
-GMStdIfTimeSourceParent_Name,"If Parent","Si Padre",,GML Visual action name
-GMStdIfTimeSourceParent_Desc,"Check if a time source's parent satisfies a condition.","Comprobar si el padre de un origen de tiempo satisface una condición.",,GML Visual action description
-GMStdIfTimeSourceParent_Story_1,"If the parent of time source ${idx} is ${parent}","Si el padre de un origen de tiempo ${idx} es ${parent}",,GML Visual story text
-GMStdIfTimeSourceParent_Story_2,"If the parent of time source ${idx} is not ${parent}","Si el padre de un origen de tiempo ${idx} no es ${parent}",,GML Visual story text
+GMStdCatTime,Time,Hora,,GML Visual library category name
+GMStdTimeSource,Time Source,Origen de tiempo,,GML Visual library argument label
+GMStdParent,Parent,Padre,,GML Visual library argument label
+GMStdPeriod,Period,Periodo,,GML Visual library argument label
+GMStdUnits,Units,Unidades,,GML Visual library argument label
+GMStdCallback,Callback,Llamada de retorno,,GML Visual library argument label
+GMStdReps,Repetitions,Repeticiones,,GML Visual library argument label
+GMStdExpiryType,Expiry Type,Tipo de caducidad,,GML Visual library argument label
+GMStdVar_time_source_global,Global Time Source,Origen de tiempo global,,GML Visual argument value
+GMStdVar_time_source_game,Game Time Source,Origen de tiempo de juego,,GML Visual argument value
+GMStdVar_time_source_units_seconds,Seconds,Segundos,,GML Visual argument value
+GMStdVar_time_source_units_frames,Frames,Cuadros,,GML Visual argument value
+GMStdVar_time_source_expire_nearest,Nearest,Más cerca,,GML Visual argument value
+GMStdVar_time_source_expire_after,After,Después de,,GML Visual argument value
+GMStdVar_time_source_state_initial,Initial,Inicial,,GML Visual argument value
+GMStdVar_time_source_state_active,Active,Activo,,GML Visual argument value
+GMStdVar_time_source_state_paused,Paused,Pausado,,GML Visual argument value
+GMStdVar_time_source_state_stopped,Stopped,Detenido,,GML Visual argument value
+GMStdTimeSourceCreate_Name,Create Time Source,Crear origen de tiempo,,GML Visual action name
+GMStdTimeSourceCreate_Desc,Create a time source.,Crear un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceCreate_Story,Create a time source and assign it to ${idx},Crear un origen de tiempo y asignarlo a ${idx},,GML Visual story text
+GMStdTimeSourceDestroy_Name,Destroy Time Source,Destruir origen de tiempo,,GML Visual action name
+GMStdTimeSourceDestroy_Desc,Destroy a time source.,Destruir un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceStart_Name,Start Time Source,Iniciar origen de tiempo,,GML Visual action name
+GMStdTimeSourceStart_Desc,Start a time source.,Iniciar un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceStart_Story,Start time source ${idx},Iniciar origen de tiempo ${idx},,GML Visual story text
+GMStdTimeSourceStop_Name,Stop Time Source,Detener origen de tiempo,,GML Visual action name
+GMStdTimeSourceStop_Desc,Stop a time source.,Detener un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceStop_Story,Stop time source ${idx},Detener origen de tiempo ${idx},,GML Visual story text
+GMStdTimeSourcePause_Name,Pause Time Source,Pausar origen de tiempo,,GML Visual action name
+GMStdTimeSourcePause_Desc,Pause a time source.,Pausar un origen de tiempo.,,GML Visual action description
+GMStdTimeSourcePause_Story,Pause time source ${idx},Pausar origen de tiempo ${idx},,GML Visual story text
+GMStdTimeSourceReset_Name,Reset Time Source,Restablecer origen de tiempo,,GML Visual action name
+GMStdTimeSourceReset_Desc,Reset a time source.,Restablecer un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceReset_Story,Reset time source ${idx},Restablecer origen de tiempo ${idx},,GML Visual story text
+GMStdTimeSourceReconfigure_Name,Reconfigure Time Source,Reconfigurar origen de tiempo,,GML Visual action name
+GMStdTimeSourceReconfigure_Desc,Reset and reconfigure a time source.,Restablecer y reconfigurar un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceReconfigure_Story,Reset and reconfigure time source ${idx},Restablecer y reconfigurar origen de tiempo ${idx},,GML Visual story text
+GMStdTimeSourceGetPeriod_Name,Get Period,Obtener período,,GML Visual action name
+GMStdTimeSourceGetPeriod_Desc,Get the period of a time source.,Obtiene el periodo de un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetPeriod_Story,Get the period of time source ${idx} and assign it to ${var},Obtener el período de origen de tiempo ${idx} y asignarlo a ${var},,GML Visual story text
+GMStdTimeSourceGetRepsCompleted_Name,Get Reps Completed,Obtener Reps completado,,GML Visual action name
+GMStdTimeSourceGetRepsCompleted_Desc,Get the number of repetitions a time source has completed.,Obtener el número de repeticiones que ha completado un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetRepsCompleted_Story,Get the number of completed repetitions of time source ${idx} and assign it to ${var},Obtener el número de repeticiones completadas del origen de tiempo ${idx} y asignarlo a ${var},,GML Visual story text
+GMStdTimeSourceGetRepsRemaining_Name,Get Reps Remaining,Obtener las repeticiones restantes,,GML Visual action name
+GMStdTimeSourceGetRepsRemaining_Desc,Get the number of repetitions a time source has remaining.,Obtener el número de repeticiones que le quedan a un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetRepsRemaining_Story,Get the number of remaining repetitions of time source ${idx} and assign it to ${var},Obtener el número de repeticiones restantes del origen de tiempo ${idx} y asignarlo a ${var},,GML Visual story text
+GMStdTimeSourceGetUnits_Name,Get Units,Obtener unidades,,GML Visual action name
+GMStdTimeSourceGetUnits_Desc,Get the units of a time source.,Obtener las unidades de un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetUnits_Story,Get the units of time source ${idx} and assign it to ${var},Obtener las unidades de un origen de tiempo ${idx} y asignarlas a ${var},,GML Visual story text
+GMStdTimeSourceGetTimeRemaining_Name,Get Time Remaining,Obtener el tiempo restante,,GML Visual action name
+GMStdTimeSourceGetTimeRemaining_Desc,Get the time remaining on a time source.,Obtener el tiempo restante de un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetTimeRemaining_Story,Get the time remaining on time source ${idx} and assign it to ${var},Obtener el tiempo restante en el origen de tiempo ${idx} y asignarlo a ${var},,GML Visual story text
+GMStdTimeSourceGetState_Name,Get State,Obtener el estado,,GML Visual action name
+GMStdTimeSourceGetState_Desc,Get the current state of a time source.,Obtener el estado actual de un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetState_Story,Get the current state of time source ${idx} and assign it to ${var},Obtener el estado actual del origen de tiempo ${idx} y asignarlo a ${var},,GML Visual story text
+GMStdTimeSourceGetParent_Name,Get Parent,Obtener el padre,,GML Visual action name
+GMStdTimeSourceGetParent_Desc,Get the parent of a time source.,Obtener el padre de un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetParent_Story,Get the parent of time source ${idx} and assign it to ${var},Obtener el padre de un origen de tiempo ${idx} y asignarlo a ${var},,GML Visual story text
+GMStdTimeSourceGetChildren_Name,Get Children,Obtener hijos,,GML Visual action name
+GMStdTimeSourceGetChildren_Desc,Get the children of a time source.,Obtener el hijo de un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceGetChildren_Story,Get the children of time source ${idx} and assign it to ${var},Obtener el hijo de un origen de tiempo ${idx} y asignarlo a ${var},,GML Visual story text
+GMStdTimeSourceExists_Name,If Time Source Exists,Si existe un origen de tiempo,,GML Visual action name
+GMStdTimeSourceExists_Desc,Check if a time source exists.,Comprobar si existe un origen de tiempo.,,GML Visual action description
+GMStdTimeSourceExists_Story_1,If time source ${idx} exists,Si el origen de tiempo ${idx} existe,,GML Visual story text
+GMStdTimeSourceExists_Story_2,If time source ${idx} does not exist,Si el origen de tiempo ${idx} no existe,,GML Visual story text
+GMStdIfTimeSourceState_Name,If State,Si Estado,,GML Visual action name
+GMStdIfTimeSourceState_Desc,Check if a time source's state satisfies a condition.,Comprueba si el estado de un origen de tiempo satisface una condición.,,GML Visual action description
+GMStdIfTimeSourceState_Story_1,If the state of time source ${idx} is ${state},Si el estado de un origen de tiempo ${idx} es ${state},,GML Visual story text
+GMStdIfTimeSourceState_Story_2,If the state of time source ${idx} is not ${state},Si el estado de un origen de tiempo ${idx} no es ${state},,GML Visual story text
+GMStdIfTimeSourceUnits_Name,If Units,Si Unidades,,GML Visual action name
+GMStdIfTimeSourceUnits_Desc,Check if a time source's units satisfies a condition.,Comprobar si las unidades de un origen de tiempo satisfacen una condición.,,GML Visual action description
+GMStdIfTimeSourceUnits_Story_1,If the units of time source ${idx} are ${units},Si las unidades de un origen de tiempo ${idx} son ${units},,GML Visual story text
+GMStdIfTimeSourceUnits_Story_2,If the units of time source ${idx} are not ${units},Si las unidades de un origen de tiempo ${idx} no son ${units},,GML Visual story text
+GMStdIfTimeSourceParent_Name,If Parent,Si Padre,,GML Visual action name
+GMStdIfTimeSourceParent_Desc,Check if a time source's parent satisfies a condition.,Comprobar si el padre de un origen de tiempo satisface una condición.,,GML Visual action description
+GMStdIfTimeSourceParent_Story_1,If the parent of time source ${idx} is ${parent},Si el padre de un origen de tiempo ${idx} es ${parent},,GML Visual story text
+GMStdIfTimeSourceParent_Story_2,If the parent of time source ${idx} is not ${parent},Si el padre de un origen de tiempo ${idx} no es ${parent},,GML Visual story text
 RedefineKeys_MoveFlowNext,Move Flow Next,Mover Flujo siguiente,,Redefine keys MoveFlowNext string
 RedefineKeys_MoveFlowPrevious,Move Flow Previous,Mover Flujo anterior,,Redefine keys MoveFlowPrevious string
 RedefineKeys_FlowAccept,Flow Accept,Flujo Aceptar,,Redefine keys FlowAccept string
@@ -7744,10 +7743,10 @@ RedefineKeys_Insert,Insert,Insertar,,Redefine keys Insert string
 RedefineKeys_ImageEditor_AddFromFile,Image Editor Add From File,Editor de imágenes Añadir desde archivo,,Redefine keys ImageEditor_AddFromFile string
 RedefineKeys_ImageEditor_CreateFromStrip,Image Editor Create From Strip,Editor de imágenes Crear desde tira,,Redefine keys ImageEditor_CreateFromStrip string
 RedefineKeys_ImageEditor_ImportFromStrip,Image Editor Import From Strip,Editor de imágenes Importar desde tira,,Redefine keys ImageEditor_ImportFromStrip string
-RedefineKeys_ImageEditor_ExportToPNG,Image Editor Export To PNG,Editor de imágenes Exportar a PNG,,Redefine keys ImageEditor_ExportToPNG string
+RedefineKeys_Export To PNG,Image Editor Export To PNG,Editor de imágenes Exportar a PNG,,Redefine keys ImageEditor_ExportToPNG string
 RedefineKeys_ImageEditor_ResizeCanvas,Image Editor Resize Canvas,Editor de imágenes Cambiar el tamaño del lienzo,,Redefine keys ImageEditor_ResizeCanvas string
 RedefineKeys_ImageEditor_CropToSelection,Image Editor Crop To Selection,Editor de imágenes Recortar a selección,,Redefine keys ImageEditor_CropToSelection string
-RedefineKeys_ImageEditor_AutoTrim,Image Editor Auto Trim,Editor de imágenes Recorte automático,,Redefine keys ImageEditor_AutoTrim string
+RedefineKeys_Auto Trim Frames,Image Editor Auto Trim,Editor de imágenes Recorte automático,,Redefine keys ImageEditor_AutoTrim string
 RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,Editor de imágenes Invertir Cuadros,,Redefine keys ImageEditor_ReverseFrames string
 RedefineKeys_Transform Current Frame,Transform Current Frame,Transformar el cuadro actual,,Redefine keys Transform Current Frame string
 RedefineKeys_Transform All Frames,Transform All Frames,Transformar todos los cuadros,,Redefine keys Transform All Frames string
@@ -7914,6 +7913,7 @@ RedefineKeys_Command,Command,Comando,,Redefine keys Command label
 RedefineKeys_Keys,Keys,Claves,,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Inicio de la reversión,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Evento de la reversión,,Other event subtype
+Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
 Inspector_InstVarMixedObjects,Variables only shown when all selected Instances have the same Object,Las variables solo se muestran cuando todas las Instancias seleccionadas tienen el mismo Objeto,,mixed instance object message
 Object_Managed,Managed,Gestionado,,The object is managed by the rollback system
 Object_Managed_Tooltip,Instances of this object will have its lifecycle managed during rollback multiplayer,El ciclo de vida de las instancias de este objeto se gestionará durante la reversión multijugador,,The object is managed by rollback system (tooltip)
