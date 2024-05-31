@@ -7814,7 +7814,6 @@ RedefineKeys_tile_line,Tile Line,Mosaico Línea,,Redefine keys tile_line string
 RedefineKeys_tile_rect,Tile Rect,Mosaico Rect,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,Mosaico Seleccionar,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,Mosaico Automosaico,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,Girar,,Redefine keys Rotate string
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,Automosaico Agregar conjunto completo,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Automosaico Agregar conjunto de transición,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Automosaico Eliminar conjunto,,Redefine keys autotile_delete_set string
@@ -7903,8 +7902,8 @@ RedefineKeys_SoundMixer,Sound Mixer,Mezclador de sonido,,Redefine keys location 
 RedefineKeys_Debugger,Debugger,Depurador,,Redefine keys location entry
 RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
 RedefineKeys_Workspace,Workspace,Espacio de trabajo,,Redefine keys location entry
-RedefineKeys_Command,Command,Comando,,Redefine keys Command label
-RedefineKeys_Keys,Keys,Claves,,Redefine keys Keys label
+RedefineKeys_Command,Command{0},Comando{0},,Redefine keys Command label
+RedefineKeys_Keys,Keys{0},Claves{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Inicio de la reversión,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Evento de la reversión,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
