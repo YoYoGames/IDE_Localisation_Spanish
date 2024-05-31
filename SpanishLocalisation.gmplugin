@@ -3,12 +3,7 @@
   "bundle_version": "1.0.0",
   "bundle_description": "Spanish IDE localisations",
   "required": false,
-  "endpoints": [
-    {
-      "endpoint_name": "github",
-      "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Spanish"
-    }
-  ],
+  "feature_flag": "",
   "plugins": [
     {
       "plugin_name": "SpanishLocalisation",
@@ -17,13 +12,21 @@
       "type": "Language",
       "plugin_data": {
         "languages": [
-            { "Spanish": "spanish.csv" },
-            {"Spanish": "spanish_dnd.csv" }
+          {
+            "Spanish": "spanish.csv"
+          },
+          {
+            "Spanish": "spanish_dnd.csv"
+          }
         ]
       },
       "description": "Spanish IDE localisations",
       "required_assemblies": [],
       "dependencies": []
     }
-  ]
+  ],
+  "endpoints": [],
+  "author": "GameMaker",
+  "signature": "BhUsjYvv\u002BRsSKxvI9IKDTvdnxOVsvGFcx6W\u002BFYaWzfCYvdlrFoBwhaG3\u002BBgFpHDz6iZAO4GZpS49OuVwfWEgPgKjG1ZidOvSzfi4fm1JeiR85C60WA6Kr31SdjenLVnLgMypVZMrgaSpEoOKDYsAG51xHYRg854any5lLhUuILo=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfaWA3d2WPN5cJCqTJJj72v6p0a4toQY7MzAPpkXkDxdPpeWMbrV4AQs9V\u002BbGVZ4PaGA3Gl0DWzfSmb\u002Btd/oDtzZZ2XehhxyFg\u002BanTPo6MdTasMkXEDBU50f6e7m3ruelF1QIER0\u002BulTNMI8\u002B\u002BURtTcPu/\u002BalhiA5z7BJP/u2MWwIDAQAB"
 }
